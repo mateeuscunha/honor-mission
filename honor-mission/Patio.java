@@ -21,16 +21,6 @@ public class Patio extends World
     }
     
     /**
-     * Retorna o unico jogador que esta no mundo.
-     * Se nao encontrar, retorna null.
-     */
-    public Jogador obterJogador() {
-        List<Jogador> listaJogadores = this.getObjects(Jogador.class);
-        
-        return listaJogadores.get(0);
-    }
-    
-    /**
      * Prepara o mundo para o início do programa.
      * Ou seja: criar os objetos iniciais e adicioná-los ao mundo.
      */

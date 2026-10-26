@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (Mateus Cunha) 
  * @version (22/10/2026)
  */
-public class Rato extends Actor
+public class Rato extends Vilao
 {
     /**
      * Act - do whatever the Rato wants to do. This method is called whenever
@@ -14,17 +14,12 @@ public class Rato extends Actor
      */
     public void act()
     {
-        perseguir();
+        if (jogadorPerto()) {
+            perseguir(2);   
+        } else {
+            vaguear(1);
+        }
     }
     
-    /**
-     * Faz o rato se voltar para a direcao do jogador e comecar a persegui-lo
-     */
-    private void perseguir() {
-        Patio patio = getWorldOfType(Patio.class);
-        Jogador jogador = patio.obterJogador();
-        
-        turnTowards(jogador.getX(), jogador.getY());
-        move(2);
-    }
+    
 }

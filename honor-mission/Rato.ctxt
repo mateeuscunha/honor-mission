@@ -1,10 +1,7 @@
 #BlueJ class context
 comment0.target=Rato
-comment0.text=\r\n\ Representa\ os\ roedores\ que\ habitam\ o\ quartel\ do\ TG.\r\n\ \r\n\ @author\ (Mateus\ Cunha)\ \r\n\ @version\ (22/10/2026)\r\n
+comment0.text=\n\ Representa\ os\ roedores\ que\ habitam\ o\ quartel\ do\ TG.\n\ \n\ @author\ (Mateus\ Cunha)\ \n\ @version\ (22/10/2026)\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Rato\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
-comment2.params=
-comment2.target=void\ perseguir()
-comment2.text=\r\n\ Faz\ o\ rato\ se\ voltar\ para\ a\ direcao\ do\ jogador\ e\ comecar\ a\ persegui-lo\r\n
-numComments=3
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Rato\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+numComments=2

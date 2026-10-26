@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (Mateus Cunha) 
  * @version (22/10/2026)
  */
-public class Vigia extends Actor
+public class Vigia extends Vilao
 {   
     boolean patrulhandoOeste;
     
@@ -23,9 +23,9 @@ public class Vigia extends Actor
      * Vigia se movimenta pela rota de patrulha
      */
     private void patrulhar() {
-        if (this.getX() <= 564) {
+        if (getX() <= 564) {
             patrulhandoOeste = false;
-        } else if (this.getX() >= 864) {
+        } else if (getX() >= 864) {
             patrulhandoOeste = true;
         }
         if (patrulhandoOeste) {

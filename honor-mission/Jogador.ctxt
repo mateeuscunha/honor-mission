@@ -1,12 +1,12 @@
 #BlueJ class context
 comment0.target=Jogador
-comment0.text=\r\n\ Representa\ o\ player\:\ soldado\ que\ vai\ cumprir\ a\ missao\ no\ TG.\r\n\ \r\n\ @author\ (Mateus\ Cunha)\ \r\n\ @version\ (22/10/2026)\r\n
+comment0.text=\n\ Representa\ o\ player\:\ soldado\ que\ vai\ cumprir\ a\ missao\ no\ TG.\n\ \n\ @author\ (Mateus\ Cunha)\ \n\ @version\ (22/10/2026)\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Jogador\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Jogador\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
 comment2.params=
 comment2.target=void\ movimentar()
-comment2.text=\r\n\ Faz\ o\ jogador\ se\ movimentar\ pelo\ mapa\r\n
+comment2.text=\n\ Faz\ o\ jogador\ se\ movimentar\ pelo\ mapa\n
 comment3.params=dx\ dy
 comment3.target=void\ moverComColisao(int,\ int)
 numComments=4

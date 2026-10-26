@@ -1,13 +1,10 @@
 #BlueJ class context
 comment0.target=Patio
-comment0.text=\r\n\ Patio\ do\ Tiro\ de\ Guerra\:\ onde\ o\ jogo\ inicia.\r\n\ \r\n\ @author\ (Mateus\ Cunha)\ \r\n\ @version\ (22/10/2026)\r\n
+comment0.text=\n\ Patio\ do\ Tiro\ de\ Guerra\:\ onde\ o\ jogo\ inicia.\n\ \n\ @author\ (Mateus\ Cunha)\ \n\ @version\ (22/10/2026)\n
 comment1.params=
 comment1.target=Patio()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Patio.\r\n\ \r\n
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Patio.\n\ \n
 comment2.params=
-comment2.target=Jogador\ obterJogador()
-comment2.text=\r\n\ Retorna\ o\ unico\ jogador\ que\ esta\ no\ mundo.\r\n\ Se\ nao\ encontrar,\ retorna\ null.\r\n
-comment3.params=
-comment3.target=void\ prepare()
-comment3.text=\r\n\ Prepara\ o\ mundo\ para\ o\ in\u00EDcio\ do\ programa.\r\n\ Ou\ seja\:\ criar\ os\ objetos\ iniciais\ e\ adicion\u00E1-los\ ao\ mundo.\r\n
-numComments=4
+comment2.target=void\ prepare()
+comment2.text=\n\ Prepara\ o\ mundo\ para\ o\ in\u00EDcio\ do\ programa.\n\ Ou\ seja\:\ criar\ os\ objetos\ iniciais\ e\ adicion\u00E1-los\ ao\ mundo.\n
+numComments=3
