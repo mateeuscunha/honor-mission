@@ -11,8 +11,8 @@ public class Obstaculo extends Actor
     {
         GreenfootImage imagem = new GreenfootImage(largura, altura);
         //imagem.setTransparency(0);
-        imagem.setColor(Color.RED);
-        imagem.fill();
+        //imagem.setColor(Color.RED);
+        //imagem.fill();
         setImage(imagem);
     }
 }

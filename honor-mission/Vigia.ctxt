@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=Vigia
-comment0.text=\n\ Representa\ um\ vigia\ vilao,\ que\ patrulha\ para\ proteger\ o\ saque\ ao\ TG.\n\ \n\ @author\ (Mateus\ Cunha)\ \n\ @version\ (22/10/2026)\n
+comment0.text=\r\n\ Representa\ um\ vigia\ vilao,\ que\ patrulha\ para\ proteger\ o\ saque\ ao\ TG.\r\n\ \r\n\ @author\ (Mateus\ Cunha)\ \r\n\ @version\ (22/10/2026)\r\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ Vigia\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Vigia\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
 comment2.params=
 comment2.target=void\ patrulhar()
-comment2.text=\n\ Vigia\ se\ movimenta\ pela\ rota\ de\ patrulha\n
+comment2.text=\r\n\ Vigia\ se\ movimenta\ pela\ rota\ de\ patrulha\r\n
 numComments=3
