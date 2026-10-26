@@ -1,6 +1,25 @@
 #BlueJ class context
 comment0.target=Obstaculo
-comment0.text=\n\ Classe\ criada\ para\ os\ os\ elementos\ no\ mapa\ n\u00E3o\ serem\ atravessados\ pelo\ jogador;\n\ \n\ @author\ (Gabriel\ Pedrozo)\ \n\ @version\ (24/10)\n
+comment0.text=\n\ Classe\ criada\ para\ os\ os\ elementos\ no\ mapa\ n\u00E3o\ serem\ atravessados\ pelo\ jogador;\n\ \n\ @author\ (Gabriel\ Pedrozo\ &&\ Mateus\ Cunha)\ \n\ @version\ (24/10)\n
 comment1.params=largura\ altura
 comment1.target=Obstaculo(int,\ int)
-numComments=2
+comment1.text=\n\ Construtor\ para\ obstaculos\ que\ colocam\ limites\ no\ mapa.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Empurra\ para\ fora\ qualquer\ jogador\ ou\ vilao\ que\ esteja\ sobrepondo\ o\ obstaculo.\n
+comment3.params=ator
+comment3.target=void\ expulsar(greenfoot.Actor)
+comment3.text=\n\ Empurra\ o\ ator\ para\ fora\ do\ obstaculo,\ pelo\ lado\ mais\ proximo.\n
+comment4.params=ator\ distanciaX\ sobreposicaoX
+comment4.target=void\ empurrarNaHorizontal(greenfoot.Actor,\ int,\ int)
+comment4.text=\n\ Empurra\ o\ ator\ para\ a\ direita\ ou\ para\ a\ esquerda.\n
+comment5.params=ator\ distanciaY\ sobreposicaoY
+comment5.target=void\ empurrarNaVertical(greenfoot.Actor,\ int,\ int)
+comment5.text=\n\ Empurra\ o\ ator\ para\ cima\ ou\ para\ baixo.\n
+comment6.params=ator
+comment6.target=int\ calcularLarguraOcupada(greenfoot.Actor)
+comment6.text=\n\ Largura\ do\ retangulo\ que\ envolve\ o\ ator\ ja\ girado.\n
+comment7.params=ator
+comment7.target=int\ calcularAlturaOcupada(greenfoot.Actor)
+comment7.text=\n\ Altura\ do\ retangulo\ que\ envolve\ o\ ator\ ja\ girado.\n
+numComments=8

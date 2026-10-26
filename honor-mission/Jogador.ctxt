@@ -7,6 +7,4 @@ comment1.text=\n\ Act\ -\ do\ whatever\ the\ Jogador\ wants\ to\ do.\ This\ meth
 comment2.params=
 comment2.target=void\ movimentar()
 comment2.text=\n\ Faz\ o\ jogador\ se\ movimentar\ pelo\ mapa\n
-comment3.params=dx\ dy
-comment3.target=void\ moverComColisao(int,\ int)
-numComments=4
+numComments=3
