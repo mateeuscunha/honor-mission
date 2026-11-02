@@ -46,7 +46,11 @@ public class Passagem extends Actor
     private void entrarNoLugar() {
         List<Jogador> jogadores = destino.getObjects(Jogador.class);
         if (!jogadores.isEmpty()) {
-            jogadores.get(0).setLocation(destinoX, destinoY);
+            Jogador novo = jogadores.get(0);
+            Jogador atual = (Jogador) getOneIntersectingObject(Jogador.class);
+            
+            novo.setLocation(destinoX, destinoY);
+            novo.setTemVassoura(atual.temVassoura()); // copia o estado
         }
         
         Greenfoot.setWorld(destino);
