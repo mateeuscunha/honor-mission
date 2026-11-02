@@ -79,5 +79,10 @@ public class Patio extends World
         Obstaculo casinha = new Obstaculo(95, 82);
         addObject(casinha,883,603);
         casinha.setLocation(884,597);
+        
+        // passagem para a fase 2 (so libera quando nao houver ratos)
+        Quartel quartel = new Quartel();
+        PassagemFase2 passagemFase2 = new PassagemFase2(35, 10, quartel, 225, 200);
+        addObject(passagemFase2, 240, 203);
     }
 }

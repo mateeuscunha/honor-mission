@@ -12,6 +12,7 @@ public class Passagem extends Actor
     private World destino; //mundo de destino da passagem
     private int destinoX; //coordenada X que o jogador vai aparecer no destino
     private int destinoY; //coordenada Y que o jogador vai aparecer no destino
+    private boolean avisando = false;
     
     /**
      * Construtor para a classe Passagem. Cria com altura e largura ajustaveis.
@@ -36,8 +37,39 @@ public class Passagem extends Actor
     public void act()
     {
         if (isTouching(Jogador.class)) {
-            entrarNoLugar();
+            if (podePassar()) {
+                entrarNoLugar();
+            } else {
+                getWorld().showText(mensagemBloqueio(), 500, 50);
+                avisando = true;
+            }
+        } else if (avisando) {
+            getWorld().showText(null, 500, 50);
+            avisando = false;
         }
+    }
+    
+    /**
+     * Mensagem exibida quando o jogador encosta mas nao pode passar.
+     * Subclasses podem sobrescrever para dar uma mensagem propria.
+     */
+    protected String mensagemBloqueio() {
+        return "Voce nao pode passar ainda!";
+    }
+    
+    /**
+     * Mostra o aviso que esta em mensagemBloqueio na tela.
+     */
+    private void mostrarAviso() {
+        getWorld().showText(mensagemBloqueio(), 500, 50);
+    }    
+    
+    /**
+     * Indica se o jogador pode usar a passagem. Por padrao sempre pode;
+     * passagens com condicao sobrescrevem este metodo.
+     */
+    protected boolean podePassar() {
+        return true;
     }
     
     /**
