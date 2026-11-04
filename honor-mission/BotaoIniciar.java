@@ -1,9 +1,8 @@
 import greenfoot.*;
 /**
- * Write a description of class BotaoIniciar here.
+ * Classe botao iniciar 
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Gabriel Pedrozo) 
  */
 public class BotaoIniciar extends Botao
 {
@@ -13,7 +12,7 @@ public class BotaoIniciar extends Botao
      */
     public BotaoIniciar()
     {
-        super("start.png");
+        super("iniciar_missao.png");
     }
 
     public void aoClicar()

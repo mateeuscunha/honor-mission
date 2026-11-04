@@ -8,7 +8,7 @@ import greenfoot.*;
 public class CasaVigia  extends World
 {
     private World mundoAnterior;
-    
+
     /**
      * Construtor do mundo Casa do Vigia.
      */
@@ -17,6 +17,10 @@ public class CasaVigia  extends World
         super(1200, 470, 1);
         this.mundoAnterior = patio;
         prepare();
+        
+        //parte responsavel pelas vidas e sua exibição
+        PainelVidas painelVidas = new PainelVidas(80, getHeight() -25 );
+        painelVidas.adicionarAoMundo(this);
     }
 
     /**
@@ -25,7 +29,7 @@ public class CasaVigia  extends World
     public void voltarAoMundoAnterior() {
         Greenfoot.setWorld(mundoAnterior);
     }
-    
+
     /**
      * Prepara o mundo para o início do programa.
      * Ou seja: criar os objetos iniciais e adicioná-los ao mundo.

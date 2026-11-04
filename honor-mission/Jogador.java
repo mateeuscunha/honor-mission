@@ -4,14 +4,15 @@ import java.util.List;
 /**
  * Representa o player: soldado que vai cumprir a missao no TG.
  * 
- * @author (Mateus Cunha) 
- * @version (22/10/2026)
+ * @author (Mateus Cunha && Gabriel Pedrozo) 
+ * @version (04/11/2026)
  */
 public class Jogador extends Actor
 {
     private boolean temVassoura;
     private boolean espacoPressionado; //evita repetir o golpe enquanto segura a tecla
-    
+    private static int vidas = 3; // atributo para vidas
+
     /**
      * Construtor padrao para Jogador
      */
@@ -95,30 +96,53 @@ public class Jogador extends Actor
             // setImage("jogador_vassoura.png");
         }
     }
-    
+
     /**
- * Se o jogador tiver a vassoura e apertar espaco, da uma vassourada:
- * todo rato dentro do alcance morre com um unico golpe.
- */
-private void atacar() {
-    boolean espacoAgora = Greenfoot.isKeyDown("space");
+     * Se o jogador tiver a vassoura e apertar espaco, da uma vassourada:
+     * todo rato dentro do alcance morre com um unico golpe.
+     */
+    private void atacar() {
+        boolean espacoAgora = Greenfoot.isKeyDown("space");
 
-    // so ataca no momento em que a tecla eh apertada (nao enquanto segura)
-    if (espacoAgora && !espacoPressionado && temVassoura) {
-        List<Rato> ratos = getObjectsInRange(70, Rato.class);
+        // so ataca no momento em que a tecla eh apertada (nao enquanto segura)
+        if (espacoAgora && !espacoPressionado && temVassoura) {
+            List<Rato> ratos = getObjectsInRange(70, Rato.class);
 
-        for (Rato rato : ratos) {
-            getWorld().removeObject(rato);
+            for (Rato rato : ratos) {
+                getWorld().removeObject(rato);
+            }
+
+            // FUTURO: tocar som de vassourada
+            // Greenfoot.playSound("vassourada.wav");
+
+            // FUTURO: animacao do golpe
+            // setImage("jogador_vassourada.png");
         }
 
-        // FUTURO: tocar som de vassourada
-        // Greenfoot.playSound("vassourada.wav");
-
-        // FUTURO: animacao do golpe
-        // setImage("jogador_vassourada.png");
+        espacoPressionado = espacoAgora;
     }
 
-    espacoPressionado = espacoAgora;
-}
-}
+    public static int getVidas()
+    {
+        return vidas;
+    }
 
+    /**
+     * Verifica se o jogador ainda tem vidas e diminui uma vida.
+     */
+    public static void perderVida()
+    {
+        if (vidas > 0)
+        {
+            vidas--;
+        }
+    }
+
+    /**
+     *  Metodo para as vidas voltarem ao reiniciar a partida
+     */
+    public static void reiniciarVidas()
+    {
+        vidas = 3;
+    }
+}

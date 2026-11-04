@@ -2,8 +2,7 @@ import greenfoot.*;
 /**
  * Write a description of class BotaoMenu here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Gabriel Pedrozo) 
  */
 public abstract class Botao extends Actor
 {
