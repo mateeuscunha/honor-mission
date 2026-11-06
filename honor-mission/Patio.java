@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * Patio do Tiro de Guerra: onde o jogo inicia.
  * 
- * @author (Mateus Cunha) 
+ * @author (Mateus Cunha && Gabriel Pedrozo) 
  * @version (22/10/2026)
  */
 public class Patio extends World
@@ -18,8 +18,14 @@ public class Patio extends World
         // Create a new world with 800x600 cells with a cell size of 1x1 pixels.
         super(1000, 750, 1); 
         prepare();
+        
+        //Responsavel pelas vidas e sua exibição
+        Jogador.reiniciarVidas();//reinicia as vidas ao recomeçar
+        //getHeight posiciona o painel próximo à parte inferior do mundo(independente dos pxs).
+        PainelVidas painelVidas = new PainelVidas(80, getHeight() -20 );
+        painelVidas.adicionarAoMundo(this);
     }
-    
+
     /**
      * Prepara o mundo para o início do programa.
      * Ou seja: criar os objetos iniciais e adicioná-los ao mundo.
@@ -48,41 +54,49 @@ public class Patio extends World
         Obstaculo peredeEsquerda = new Obstaculo(39, 719);
         addObject(peredeEsquerda,18,432);
         peredeEsquerda.setLocation(21,361);
-        Obstaculo paredeInferior = new Obstaculo(935, 36);
-        addObject(paredeInferior,551,697);
-        paredeInferior.setLocation(510,710);
-        Obstaculo paredeDireita = new Obstaculo(21, 702);
-        addObject(paredeDireita,970,363);
-        Obstaculo arvoreMeio = new Obstaculo(50, 39);
-        addObject(arvoreMeio,599,467);
-        arvoreMeio.setLocation(601,469);
-        Obstaculo arvoreLado1 = new Obstaculo(34, 34);
-        addObject(arvoreLado1,66,325);
-        arvoreLado1.setLocation(68,328);
-        Obstaculo arvoreLado2 = new Obstaculo(34, 34);
-        addObject(arvoreLado2,67,489);
-        arvoreLado2.setLocation(68,492);
-        Obstaculo arvoreLado3 = new Obstaculo(34, 34);
-        addObject(arvoreLado3,67,655);
-        arvoreLado3.setLocation(67,657);
-        Obstaculo cantina = new Obstaculo(289, 154);
-        addObject(cantina,205,120);
-        Obstaculo casaVigiaEsq = new Obstaculo(196, 156);
-        addObject(casaVigiaEsq,577,105);
-        casaVigiaEsq.setLocation(574,92);
-        Obstaculo casaVigiaDir = new Obstaculo(194, 149);
-        addObject(casaVigiaDir,841,102);
-        casaVigiaDir.setLocation(833,94);
-        Obstaculo guarita = new Obstaculo(55, 77);
-        addObject(guarita,908,266);
-        guarita.setLocation(912,266);
+
+        Obstaculo paredeDireita = new Obstaculo(60, 702);
+        addObject(paredeDireita,972,338);
+
+        Obstaculo paredeInferior = new Obstaculo(1000, 64);
+        addObject(paredeInferior,521,718);
+        paredeInferior.setLocation(501,721);
+
+        Obstaculo fase2 = new Obstaculo(366, 194);
+        addObject(fase2,186,98);
+
+        Obstaculo arvoreMeio = new Obstaculo(48, 92);
+        addObject(arvoreMeio,601,444);
+        Obstaculo arvoreLado1 = new Obstaculo(38, 66);
+        addObject(arvoreLado1,68,309);
+        Obstaculo arvoreLado2 = new Obstaculo(38, 66);
+        addObject(arvoreLado2,67,471);
+        arvoreLado2.setLocation(67,472);
+        Obstaculo arvoreLado3 = new Obstaculo(38, 66);
+        addObject(arvoreLado3,63,649);
+        arvoreLado3.setLocation(67,639);
+        Obstaculo escadaCima = new Obstaculo(129, 48);
+        addObject(escadaCima,412,35);
+        escadaCima.setLocation(410,25);
+
+        Obstaculo casaVigiaEsq = new Obstaculo(219, 174);
+        addObject(casaVigiaEsq,568, 84);
+        Obstaculo casaVigiaDir = new Obstaculo(236, 176);
+        addObject(casaVigiaDir,849,86);
+
         Obstaculo casinha = new Obstaculo(95, 82);
         addObject(casinha,883,603);
         casinha.setLocation(884,597);
-        
+
+        Obstaculo guarita = new Obstaculo(59, 112);
+        addObject(guarita,910,259);
+        guarita.setLocation(912,250);
+
         // passagem para a fase 2 (so libera quando nao houver ratos)
         Quartel quartel = new Quartel();
         PassagemFase2 passagemFase2 = new PassagemFase2(35, 10, quartel, 225, 200);
         addObject(passagemFase2, 240, 203);
+
+        
     }
 }

@@ -25,6 +25,11 @@ public class TelaInicial  extends World
     {
         BotaoIniciar botaoIniciar = new BotaoIniciar();
         addObject(botaoIniciar,753,587);
-        botaoIniciar.setLocation(166,595);
+
+        BotaoInstrucoes botaoInstrucoes = new BotaoInstrucoes();
+        addObject(botaoInstrucoes,362,598);
+        
+        botaoIniciar.setLocation(147,636);
+        botaoInstrucoes.setLocation(324,635);
     }
 }
