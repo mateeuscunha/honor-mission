@@ -10,8 +10,9 @@ import java.util.List;
 public class Jogador extends Actor
 {
     private boolean temVassoura;
-    private boolean espacoPressionado; //evita repetir o golpe enquanto segura a tecla
+    private boolean espacoPressionado; // evita repetir o golpe enquanto segura a tecla
     private static int vidas = 3; // atributo para vidas
+    private static int invulneravel = 0; // acts restantes sem poder levar dano
 
     /**
      * Construtor padrao para Jogador
@@ -28,6 +29,15 @@ public class Jogador extends Actor
      */
     public void act()
     {
+        if (vidas <= 0) {
+            Greenfoot.setWorld(new TelaInicial());
+            return;
+        }
+        
+        if (invulneravel > 0) {
+            invulneravel--;
+        }
+
         movimentar();
         pegarVassoura();
         atacar();
@@ -122,6 +132,9 @@ public class Jogador extends Actor
         espacoPressionado = espacoAgora;
     }
 
+    /**
+     * Metodo de acesso a quantidade de vidas do jogador.
+     */
     public static int getVidas()
     {
         return vidas;
@@ -134,7 +147,11 @@ public class Jogador extends Actor
     {
         if (vidas > 0)
         {
-            vidas--;
+            if (vidas > 0 && invulneravel == 0)
+            {
+                vidas--;
+                invulneravel = 30; // ~0,5s de proteção
+            }
         }
     }
 
@@ -144,5 +161,6 @@ public class Jogador extends Actor
     public static void reiniciarVidas()
     {
         vidas = 3;
+        invulneravel = 0;
     }
 }

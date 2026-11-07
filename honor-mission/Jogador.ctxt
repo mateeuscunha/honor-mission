@@ -27,6 +27,7 @@ comment7.target=void\ atacar()
 comment7.text=\n\ Se\ o\ jogador\ tiver\ a\ vassoura\ e\ apertar\ espaco,\ da\ uma\ vassourada\:\n\ todo\ rato\ dentro\ do\ alcance\ morre\ com\ um\ unico\ golpe.\n
 comment8.params=
 comment8.target=int\ getVidas()
+comment8.text=\n\ Metodo\ de\ acesso\ a\ quantidade\ de\ vidas\ do\ jogador.\n
 comment9.params=
 comment9.target=void\ perderVida()
 comment9.text=\n\ Verifica\ se\ o\ jogador\ ainda\ tem\ vidas\ e\ diminui\ uma\ vida.\n
