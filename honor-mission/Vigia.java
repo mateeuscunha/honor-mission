@@ -8,7 +8,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Vigia extends Vilao
 {   
-    boolean patrulhandoOeste;
+    private static final int TEMPO_RECARGA = 45; // acts entre um tiro e outro
+    
+    private boolean patrulhandoOeste;
+    private int recarga = 0;
     
     /**
      * Act - do whatever the Vigia wants to do. This method is called whenever
@@ -16,7 +19,15 @@ public class Vigia extends Vilao
      */
     public void act()
     {
-        patrulhar();
+        if (recarga > 0) {
+            recarga--;
+        }
+        
+        if(jogadorPerto()) {
+            atirar();
+        } else {
+            patrulhar();   
+        }
     }
     
     /**
@@ -33,5 +44,22 @@ public class Vigia extends Vilao
         } else {
             move(3);
         }
+    }
+    
+    /**
+     * Atira na direcao do jogador, respeitando o tempo de recarga.
+     */
+    private void atirar() {
+        if (recarga > 0) {
+            return;
+        }
+        
+        Jogador jogador = getObjectsInRange(100, Jogador.class).get(0);
+        
+        Tiro tiro = new Tiro(0);
+        getWorld().addObject(tiro, getX(), getY());
+        tiro.turnTowards(jogador.getX(), jogador.getY());
+
+        recarga = TEMPO_RECARGA;
     }
 }

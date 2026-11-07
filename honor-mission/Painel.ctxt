@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Painel
+comment0.text=\n\ Painel\n\ \n\ @author\ (Gabriel\ Pedrozo)\ \n\ @version\ (04/11)\n
+comment1.params=x\ y
+comment1.target=Painel(int,\ int)
+comment2.params=mundo
+comment2.target=void\ adicionarAoMundo(greenfoot.World)
+comment2.text=\n\ Adiciona\ o\ painel\ ao\ mundo\ informado,\ utilizando\ as\ coordenadas\n\ de\ posi\u00E7\u00E3o\ X\ e\ Y\ definidas\ em\ seu\ construtor.\n\ \n\ @param\ mundo\ mundo\ no\ qual\ o\ painel\ ser\u00E1\ adicionado.\n
+numComments=3
