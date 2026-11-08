@@ -5,7 +5,7 @@ import java.util.List;
  * Patio do Tiro de Guerra: onde o jogo inicia.
  * 
  * @author (Mateus Cunha && Gabriel Pedrozo) 
- * @version (22/10/2026)
+ * @version (08/11/2026)
  */
 public class Patio extends World
 {
@@ -18,12 +18,17 @@ public class Patio extends World
         // Create a new world with 800x600 cells with a cell size of 1x1 pixels.
         super(1000, 750, 1); 
         prepare();
-        
+
         //Responsavel pelas vidas e sua exibição
         Jogador.reiniciarVidas();//reinicia as vidas ao recomeçar
         //getHeight posiciona o painel próximo à parte inferior do mundo(independente dos pxs).
-        PainelVidas painelVidas = new PainelVidas(80, getHeight() -20 );
+        PainelVidas painelVidas = new PainelVidas(getWidth() - 80, getHeight() - 25);
         painelVidas.adicionarAoMundo(this);
+
+        //responsavel pelos pontos e sua exibição
+        Jogador.reiniciarPontuacao();
+        PainelPontuacao painelPontuacao = new PainelPontuacao(100, getHeight() -25);
+        painelPontuacao.adicionarAoMundo(this);
     }
 
     /**
@@ -97,6 +102,5 @@ public class Patio extends World
         PassagemFase2 passagemFase2 = new PassagemFase2(35, 10, quartel, 225, 200);
         addObject(passagemFase2, 240, 203);
 
-        
     }
 }
