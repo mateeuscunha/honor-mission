@@ -5,7 +5,7 @@ import java.util.List;
  * Representa o player: soldado que vai cumprir a missao no TG.
  * 
  * @author (Mateus Cunha && Gabriel Pedrozo) 
- * @version (04/11/2026)
+ * @version (08/11/2026)
  */
 public class Jogador extends Actor
 {
@@ -13,6 +13,7 @@ public class Jogador extends Actor
     private boolean espacoPressionado; // evita repetir o golpe enquanto segura a tecla
     private static int vidas = 3; // atributo para vidas
     private static int invulneravel = 0; // acts restantes sem poder levar dano
+    private static int pontuacao = 0;
 
     /**
      * Construtor padrao para Jogador
@@ -33,7 +34,7 @@ public class Jogador extends Actor
             Greenfoot.setWorld(new TelaInicial());
             return;
         }
-        
+
         if (invulneravel > 0) {
             invulneravel--;
         }
@@ -80,6 +81,7 @@ public class Jogador extends Actor
         if (vassoura != null) {
             getWorld().removeObject(vassoura);
             temVassoura = true;
+            adicionarPontos(100);
 
             // FUTURO: tocar som de pegar item
             // Greenfoot.playSound("pegar_item.wav");
@@ -120,6 +122,7 @@ public class Jogador extends Actor
 
             for (Rato rato : ratos) {
                 getWorld().removeObject(rato);
+                adicionarPontos(50);
             }
 
             // FUTURO: tocar som de vassourada
@@ -163,4 +166,35 @@ public class Jogador extends Actor
         vidas = 3;
         invulneravel = 0;
     }
+
+    //metodos para pontuação
+    /**
+     * Retorna a pontuação atual do jogador.
+     */
+    public static int getPontuacao()
+    {
+        return pontuacao;
+    }
+
+    /**
+     * Adiciona pontos à pontuação atual.
+     *
+     * @param pontos quantidade de pontos recebida.
+     */
+    public static void adicionarPontos(int pontos)
+    {
+        if (pontos > 0)
+        {
+            pontuacao += pontos;
+        }
+    }
+
+    /**
+     * Reinicia a pontuação ao iniciar uma nova partida.
+     */
+    public static void reiniciarPontuacao()
+    {
+        pontuacao = 0;
+    }
+
 }

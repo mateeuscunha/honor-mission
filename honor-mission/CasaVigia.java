@@ -19,8 +19,12 @@ public class CasaVigia  extends World
         prepare();
         
         //parte responsavel pelas vidas e sua exibição
-        PainelVidas painelVidas = new PainelVidas(80, getHeight() -25 );
+        PainelVidas painelVidas = new PainelVidas(getWidth() - 80, getHeight() - 25);
         painelVidas.adicionarAoMundo(this);
+        
+        //responsavel pelos pontos e sua exibição
+        PainelPontuacao painelPontuacao = new PainelPontuacao(100, getHeight() -25);
+        painelPontuacao.adicionarAoMundo(this);
     }
 
     /**

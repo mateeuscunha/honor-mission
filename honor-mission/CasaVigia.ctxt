@@ -1,13 +1,13 @@
 #BlueJ class context
 comment0.target=CasaVigia
-comment0.text=\n\ essa\ classe\ representa\ o\ cen\u00E1rio\ da\ casa\ do\ vigia\n\ \n\ @author\ (Gabriel\ Pedrozo\ &&\ Mateus\ Cunha)\ \n\ @version\ (24/10/2026)\n
+comment0.text=\r\n\ essa\ classe\ representa\ o\ cen\u00E1rio\ da\ casa\ do\ vigia\r\n\ \r\n\ @author\ (Gabriel\ Pedrozo\ &&\ Mateus\ Cunha)\ \r\n\ @version\ (24/10/2026)\r\n
 comment1.params=patio
 comment1.target=CasaVigia(greenfoot.World)
-comment1.text=\n\ Construtor\ do\ mundo\ Casa\ do\ Vigia.\n
+comment1.text=\r\n\ Construtor\ do\ mundo\ Casa\ do\ Vigia.\r\n
 comment2.params=
 comment2.target=void\ voltarAoMundoAnterior()
-comment2.text=\n\ Volta\ para\ o\ mundo\ anterior.\n
+comment2.text=\r\n\ Volta\ para\ o\ mundo\ anterior.\r\n
 comment3.params=
 comment3.target=void\ prepare()
-comment3.text=\n\ Prepara\ o\ mundo\ para\ o\ in\u00EDcio\ do\ programa.\n\ Ou\ seja\:\ criar\ os\ objetos\ iniciais\ e\ adicion\u00E1-los\ ao\ mundo.\n
+comment3.text=\r\n\ Prepara\ o\ mundo\ para\ o\ in\u00EDcio\ do\ programa.\r\n\ Ou\ seja\:\ criar\ os\ objetos\ iniciais\ e\ adicion\u00E1-los\ ao\ mundo.\r\n
 numComments=4
