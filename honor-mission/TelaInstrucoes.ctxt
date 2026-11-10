@@ -1,7 +1,9 @@
 #BlueJ class context
 comment0.target=TelaInstrucoes
-comment0.text=\n\ Write\ a\ description\ of\ class\ TelaInicial\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Tela\ que\ apresenta\ os\ controles\ e\ objetivos\ da\ missao.\r\n\r\n\ @author\ Gabriel\ Pedrozo\r\n\ @version\ 10/11/2026\r\n
 comment1.params=
 comment1.target=TelaInstrucoes()
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ TelaInicial\n
-numComments=2
+comment2.params=texto\ tamanho\ cor\ x\ y
+comment2.target=void\ escreverTexto(java.lang.String,\ int,\ greenfoot.Color,\ int,\ int)
+comment2.text=\r\n\ Desenha\ um\ texto\ centralizado\ na\ posicao\ indicada.\r\n
+numComments=3

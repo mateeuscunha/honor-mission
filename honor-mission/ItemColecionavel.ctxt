@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ItemColecionavel
+comment0.text=\r\n\ Classe\ base\ para\ itens\ que\ ficam\ na\ cole\u00E7\u00E3o\ do\ jogador.\r\n\r\n\ @author\ Gabriel\ Pedrozo\r\n\ @version\ 10/11/2026\r\n
+comment1.params=nome\ descricao\ pontos
+comment1.target=ItemColecionavel(java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ getPontos()
+numComments=3

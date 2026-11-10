@@ -1,19 +1,20 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Cria o objeto vassoura.
+ * Cria o objeto vassoura, um item utilizavel pelo jogador.
  * 
  * @author (Gabriel Pedrozo) 
  * @version (24/10)
  */
-public class Vassoura extends Actor
+public class Vassoura extends ItemUtilizavel
 {
-    /**
-     * Act - do whatever the Palet wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    public Vassoura()
+    {
+        super("Vassoura", "Permite atacar os ratos.");
+    }
+
     public void act()
     {
-        
+
     }
 }

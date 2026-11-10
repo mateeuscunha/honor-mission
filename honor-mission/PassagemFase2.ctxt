@@ -1,12 +1,12 @@
 #BlueJ class context
 comment0.target=PassagemFase2
-comment0.text=\n\ Write\ a\ description\ of\ class\ PassagemFase2\ here.\n\ \n\ @author\ (Mateus\ Cunha)\ \n\ @version\ (11/02/2026)\n
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ PassagemFase2\ here.\r\n\ \r\n\ @author\ (Mateus\ Cunha)\ \r\n\ @version\ (11/02/2026)\r\n
 comment1.params=largura\ altura\ destino\ destinoX\ destinoY
 comment1.target=PassagemFase2(int,\ int,\ greenfoot.World,\ int,\ int)
-comment1.text=\n\ Construtor\ padrao\ da\ PassagemFase2\n
+comment1.text=\r\n\ Construtor\ padrao\ da\ PassagemFase2\r\n
 comment2.params=
 comment2.target=boolean\ podePassar()
-comment2.text=\n\ So\ pode\ passar\ se\ nao\ houver\ mais\ ratos\ no\ mundo.\n
+comment2.text=\r\n\ So\ pode\ passar\ se\ nao\ houver\ mais\ ratos\ no\ mundo.\r\n
 comment3.params=
 comment3.target=java.lang.String\ mensagemBloqueio()
 numComments=4

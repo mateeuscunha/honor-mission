@@ -88,6 +88,8 @@ public class Patio extends World
         addObject(casaVigiaEsq,568, 84);
         Obstaculo casaVigiaDir = new Obstaculo(236, 176);
         addObject(casaVigiaDir,849,86);
+        Obstaculo cimaPorta = new Obstaculo(75, 125);
+        addObject(cimaPorta,693,58);
 
         Obstaculo casinha = new Obstaculo(95, 82);
         addObject(casinha,883,603);
@@ -102,5 +104,7 @@ public class Patio extends World
         PassagemFase2 passagemFase2 = new PassagemFase2(35, 10, quartel, 225, 200);
         addObject(passagemFase2, 240, 203);
 
+        
+        
     }
 }

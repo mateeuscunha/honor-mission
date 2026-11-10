@@ -1,11 +1,11 @@
 #BlueJ class context
 comment0.target=PainelPontuacao
-comment0.text=\n\ Exibe\ a\ pontua\u00E7\u00E3o\ atual\ do\ jogador.\n\n\ @author\ Gabriel\ Pedrozo\n\ @version\ 08/11\n
+comment0.text=\r\n\ Exibe\ a\ pontua\u00E7\u00E3o\ atual\ do\ jogador.\r\n\r\n\ @author\ Gabriel\ Pedrozo\r\n\ @version\ 08/11\r\n
 comment1.params=x\ y
 comment1.target=PainelPontuacao(int,\ int)
 comment2.params=
 comment2.target=void\ act()
 comment3.params=
 comment3.target=void\ atualizar()
-comment3.text=\n\ Consulta\ a\ pontua\u00E7\u00E3o\ do\ jogador\ e\ atualiza\ sua\ exibi\u00E7\u00E3o.\n
+comment3.text=\r\n\ Consulta\ a\ pontua\u00E7\u00E3o\ do\ jogador\ e\ atualiza\ sua\ exibi\u00E7\u00E3o.\r\n
 numComments=4
