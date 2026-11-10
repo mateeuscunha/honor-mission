@@ -84,6 +84,7 @@ public class Passagem extends Actor
             novo.setLocation(destinoX, destinoY);
             novo.setTemVassoura(atual.temVassoura()); // copia o estado
         }
+        Greenfoot.playSound("abrindo_porta.wav");
         
         Greenfoot.setWorld(destino);
     }

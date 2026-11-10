@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MusicaFundo
+comment0.text=\n\ Controla\ a\ musica\ de\ fundo\ do\ jogo.\n\ O\ som\ fica\ em\ um\ campo\ static\ para\ continuar\ tocando\n\ quando\ o\ jogador\ troca\ de\ mundo\ (Patio\ <->\ CasaVigia).\n\ \n\ @author\ (Mateus\ Cunha)\ \n\ @version\ (11/09/2026)\n
+comment1.params=
+comment1.target=void\ tocar()
+comment1.text=\n\ Toca\ a\ musica\ em\ loop.\ Se\ ja\ estiver\ tocando,\ nao\ faz\ nada,\n\ entao\ chamar\ de\ novo\ nao\ reinicia\ a\ musica.\n
+comment2.params=
+comment2.target=void\ parar()
+comment2.text=\n\ Para\ a\ musica.\n
+numComments=3

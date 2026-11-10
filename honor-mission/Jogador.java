@@ -31,6 +31,8 @@ public class Jogador extends Actor
     public void act()
     {
         if (vidas <= 0) {
+            MusicaFundo.parar();
+            Greenfoot.playSound("game_over.wav");
             Greenfoot.setWorld(new TelaInicial());
             return;
         }
@@ -82,9 +84,8 @@ public class Jogador extends Actor
             getWorld().removeObject(vassoura);
             temVassoura = true;
             adicionarPontos(100);
-
-            // FUTURO: tocar som de pegar item
-            // Greenfoot.playSound("pegar_item.wav");
+            
+            Greenfoot.playSound("pegar_item.wav");
 
             // FUTURO: trocar imagem do jogador para o boneco com vassoura
             // setImage("jogador_vassoura.png");
@@ -118,15 +119,15 @@ public class Jogador extends Actor
 
         // so ataca no momento em que a tecla eh apertada (nao enquanto segura)
         if (espacoAgora && !espacoPressionado && temVassoura) {
+            Greenfoot.playSound("vassourada.wav");
+            
             List<Rato> ratos = getObjectsInRange(70, Rato.class);
 
             for (Rato rato : ratos) {
                 getWorld().removeObject(rato);
                 adicionarPontos(50);
+                Greenfoot.playSound("rato_morrendo.wav");
             }
-
-            // FUTURO: tocar som de vassourada
-            // Greenfoot.playSound("vassourada.wav");
 
             // FUTURO: animacao do golpe
             // setImage("jogador_vassourada.png");
@@ -154,6 +155,7 @@ public class Jogador extends Actor
             {
                 vidas--;
                 invulneravel = 30; // ~0,5s de proteção
+                Greenfoot.playSound("dano.wav");
             }
         }
     }

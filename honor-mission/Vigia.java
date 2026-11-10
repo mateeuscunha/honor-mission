@@ -59,7 +59,8 @@ public class Vigia extends Vilao
         Tiro tiro = new Tiro(0);
         getWorld().addObject(tiro, getX(), getY());
         tiro.turnTowards(jogador.getX(), jogador.getY());
-
+        Greenfoot.playSound("tiro.wav");
+        
         recarga = TEMPO_RECARGA;
     }
 }

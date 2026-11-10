@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=Tiro
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Tiro\ here.\r\n\ \r\n\ @author\ (Mateus\ Cunha)\ \r\n\ @version\ (06/11/2026)\r\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ Tiro\ here.\n\ \n\ @author\ (Mateus\ Cunha)\ \n\ @version\ (06/11/2026)\n
 comment1.params=anguloGraus
 comment1.target=Tiro(int)
-comment1.text=\r\n\ @param\ anguloGraus\ direcao\ do\ tiro\ (0\ \=\ direita,\ 90\ \=\ baixo)\r\n
+comment1.text=\n\ @param\ anguloGraus\ direcao\ do\ tiro\ (0\ \=\ direita,\ 90\ \=\ baixo)\n
 comment2.params=
 comment2.target=void\ act()
-comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Tiroo\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ Tiroo\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
 numComments=3

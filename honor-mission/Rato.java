@@ -39,8 +39,7 @@ public class Rato extends Vilao
             Jogador.perderVida();
             recargaMordida = TEMPO_MORDIDA;
 
-            // FUTURO: tocar som de mordida
-            // Greenfoot.playSound("mordida.wav");
+            Greenfoot.playSound("mordida.wav");
         }
     }
 }

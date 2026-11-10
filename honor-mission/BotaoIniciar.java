@@ -1,8 +1,9 @@
 import greenfoot.*;
+
 /**
  * Classe botao iniciar 
  * 
- * @author (Gabriel Pedrozo) 
+ * @author (Gabriel Pedrozo && Mateus Cunha) 
  */
 public class BotaoIniciar extends Botao
 {
@@ -18,5 +19,6 @@ public class BotaoIniciar extends Botao
     public void aoClicar()
     {
         Greenfoot.setWorld(new Patio());
+        MusicaFundo.tocar();
     }
 }
