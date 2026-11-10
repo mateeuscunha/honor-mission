@@ -9,19 +9,23 @@ import java.util.List;
  */
 public class Jogador extends Actor
 {
-    private boolean temVassoura;
     private boolean espacoPressionado; // evita repetir o golpe enquanto segura a tecla
+    private boolean ePressionado; // evita repetir a cao enquanto segura a tecla
     private static int vidas = 3; // atributo para vidas
     private static int invulneravel = 0; // acts restantes sem poder levar dano
     private static int pontuacao = 0;
+    private Inventario inventario;
+    private Colecao colecao;
 
     /**
      * Construtor padrao para Jogador
      */
     public Jogador()
     {
-        temVassoura = false;
         espacoPressionado = false;
+        ePressionado = false;
+        inventario = new Inventario();
+        colecao = new Colecao();
     }
 
     /**
@@ -42,7 +46,7 @@ public class Jogador extends Actor
         }
 
         movimentar();
-        pegarVassoura();
+        coletarItem();
         atacar();
     }
 
@@ -76,41 +80,6 @@ public class Jogador extends Actor
     }
 
     /**
-     * Se o jogador encostar na vassoura, pega o item e ela some do mapa.
-     */
-    private void pegarVassoura() {
-        Actor vassoura = getOneIntersectingObject(Vassoura.class);
-        if (vassoura != null) {
-            getWorld().removeObject(vassoura);
-            temVassoura = true;
-            adicionarPontos(100);
-            
-            Greenfoot.playSound("pegar_item.wav");
-
-            // FUTURO: trocar imagem do jogador para o boneco com vassoura
-            // setImage("jogador_vassoura.png");
-        }
-    }
-
-    /**
-     * Indica se o jogador ja pegou a vassoura.
-     */
-    public boolean temVassoura() {
-        return temVassoura;
-    }
-
-    /**
-     * Atualiza o estado do atributo temVassoura do jogador com
-     * o valor(true ou false) recebido por parametro.
-     */
-    public void setTemVassoura(boolean valor) {
-        temVassoura = valor;
-        if (temVassoura) {
-            // setImage("jogador_vassoura.png");
-        }
-    }
-
-    /**
      * Se o jogador tiver a vassoura e apertar espaco, da uma vassourada:
      * todo rato dentro do alcance morre com um unico golpe.
      */
@@ -118,9 +87,9 @@ public class Jogador extends Actor
         boolean espacoAgora = Greenfoot.isKeyDown("space");
 
         // so ataca no momento em que a tecla eh apertada (nao enquanto segura)
-        if (espacoAgora && !espacoPressionado && temVassoura) {
+        if (espacoAgora && !espacoPressionado && inventario.contem("Vassoura")) {
             Greenfoot.playSound("vassourada.wav");
-            
+
             List<Rato> ratos = getObjectsInRange(70, Rato.class);
 
             for (Rato rato : ratos) {
@@ -136,6 +105,7 @@ public class Jogador extends Actor
         espacoPressionado = espacoAgora;
     }
 
+    //metodos vidas
     /**
      * Metodo de acesso a quantidade de vidas do jogador.
      */
@@ -197,6 +167,73 @@ public class Jogador extends Actor
     public static void reiniciarPontuacao()
     {
         pontuacao = 0;
+    }
+
+    //metodos itens 
+    /**
+     * Adiciona um item utilizável ao inventário.
+     */
+    public void adicionarAoInventario(ItemUtilizavel item)
+    {
+        inventario.adicionar(item);
+    }
+
+    public Inventario getInventario()
+    {
+        return inventario;
+    }
+
+    /**
+     * Adiciona um item colecionável à coleção.
+     */
+    public void adicionarNaColecao(ItemColecionavel item)
+    {
+        if (item != null)
+        {
+            colecao.adicionar(item);
+            adicionarPontos(item.getPontos());
+        }
+    }
+
+    /**
+     * Transfere o inventario e a colecao para o jogador do proximo mundo.
+     */
+    public void transferirItensPara(Jogador destino)
+    {
+        destino.inventario = this.inventario;
+        destino.colecao = this.colecao;
+    }
+
+    /**
+     * Verifica se o jogador pode coletar um item próximo.
+     */
+    private void coletarItem()
+    {
+        boolean eAgora = Greenfoot.isKeyDown("e");
+
+        if (eAgora && !ePressionado)
+        {
+            List<Item> itens = getObjectsInRange(50, Item.class);
+
+            if (!itens.isEmpty())
+            {
+                Item item = itens.get(0);
+
+                if (item.getTipo().equals("UTILIZAVEL"))
+                {
+                    adicionarAoInventario((ItemUtilizavel) item);
+                }
+                else if (item.getTipo().equals("COLECIONAVEL"))
+                {
+                    adicionarNaColecao((ItemColecionavel) item);
+                }
+
+                getWorld().removeObject(item);
+                Greenfoot.playSound("pegar_item.wav");
+            }
+        }
+
+        ePressionado = eAgora;
     }
 
 }

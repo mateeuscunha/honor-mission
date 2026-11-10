@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=BotaoVoltar
+comment0.text=\r\n\ Botao\ para\ retornar\ a\ tela\ inicial.\r\n\r\n\ @author\ Gabriel\ Pedrozo\r\n\ @version\ 10/11/2026\r\n
+comment1.params=
+comment1.target=BotaoVoltar()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

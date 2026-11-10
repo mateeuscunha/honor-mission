@@ -19,9 +19,7 @@ public class Tiro extends Actor
      * @param anguloGraus direcao do tiro (0 = direita, 90 = baixo)
      */
     public Tiro(int anguloGraus) {
-        GreenfootImage imagem = new GreenfootImage(5, 5);
-        imagem.setColor(Color.WHITE);
-        imagem.fill();
+        GreenfootImage imagem = new GreenfootImage("tiro1.png");
         setImage(imagem);
 
         angulo = Math.toRadians(anguloGraus);

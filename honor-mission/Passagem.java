@@ -82,7 +82,7 @@ public class Passagem extends Actor
             Jogador atual = (Jogador) getOneIntersectingObject(Jogador.class);
             
             novo.setLocation(destinoX, destinoY);
-            novo.setTemVassoura(atual.temVassoura()); // copia o estado
+            atual.transferirItensPara(novo); // Mantem o inventario e a colecao ao trocar de fase.
         }
         Greenfoot.playSound("abrindo_porta.wav");
         

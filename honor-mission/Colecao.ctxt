@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Colecao
+comment0.text=\r\n\ Armazena\ os\ itens\ colecion\u00E1veis\ encontrados\ pelo\ jogador.\r\n\r\n\ @author\ Gabriel\ Pedrozo\r\n\ @version\ 10/11/2026\r\n
+comment1.params=
+comment1.target=Colecao()
+comment2.params=item
+comment2.target=void\ adicionar(ItemColecionavel)
+comment3.params=nome
+comment3.target=boolean\ contem(java.lang.String)
+comment4.params=
+comment4.target=int\ getQuantidade()
+numComments=5

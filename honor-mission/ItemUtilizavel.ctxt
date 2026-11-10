@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ItemUtilizavel
+comment0.text=\r\n\ Classe\ base\ para\ itens\ que\ podem\ ser\ utilizados\ pelo\ jogador.\r\n\r\n\ @author\ Gabriel\ Pedrozo\r\n\ @version\ 10/11/2026\r\n
+comment1.params=nome\ descricao
+comment1.target=ItemUtilizavel(java.lang.String,\ java.lang.String)
+comment2.params=nome\ descricao\ consumivel
+comment2.target=ItemUtilizavel(java.lang.String,\ java.lang.String,\ boolean)
+comment3.params=
+comment3.target=boolean\ isConsumivel()
+comment4.params=jogador
+comment4.target=boolean\ usar(Jogador)
+numComments=5
