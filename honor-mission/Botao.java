@@ -2,7 +2,7 @@ import greenfoot.*;
 /**
  * Classe geral que representa os botoes no jogo.
  * 
- * @author (Gabriel Pedrozo && Mateus Cunha) 
+ * @author Gabriel Pedrozo && Mateus Cunha
  */
 public abstract class Botao extends Actor
 {

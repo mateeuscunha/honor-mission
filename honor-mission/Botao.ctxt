@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Botao
-comment0.text=\n\ Classe\ geral\ que\ representa\ os\ botoes\ no\ jogo.\n\ \n\ @author\ (Gabriel\ Pedrozo\ &&\ Mateus\ Cunha)\ \n
+comment0.text=\n\ Classe\ geral\ que\ representa\ os\ botoes\ no\ jogo.\n\ \n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n
 comment1.params=arquivoImagem
 comment1.target=Botao(java.lang.String)
 comment1.text=\n\ Construtor\ padrao\ para\ botao.\n
