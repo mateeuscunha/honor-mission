@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Moeda
-comment0.text=\r\n\ Item\ colecionavel\ que\ aumenta\ a\ pontuacao\ do\ jogador.\r\n\r\n\ @author\ Gabriel\ Pedrozo\r\n\ @version\ 10/11/2026\r\n
+comment0.text=\n\ Item\ colecionavel\ que\ aumenta\ a\ pontuacao\ do\ jogador.\n\n\ @author\ Gabriel\ Pedrozo\n\ @version\ 10/11/2026\n
 comment1.params=
 comment1.target=Moeda()
 numComments=2

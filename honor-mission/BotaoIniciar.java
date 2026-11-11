@@ -9,7 +9,7 @@ public class BotaoIniciar extends Botao
 {
     
     /**
-     * Constructor for objects of class BotaoIniciar
+     * Construtor para o botao iniciar.
      */
     public BotaoIniciar()
     {

@@ -1,8 +1,7 @@
 #BlueJ class context
 comment0.target=Vassoura
-comment0.text=\r\n\ Cria\ o\ objeto\ vassoura,\ um\ item\ utilizavel\ pelo\ jogador.\r\n\ \r\n\ @author\ (Gabriel\ Pedrozo)\ \r\n\ @version\ (24/10)\r\n
+comment0.text=\n\ Item\ utiliz\u00E1vel\ que\ permite\ ao\ jogador\ atacar\ os\ ratos.\n\n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ 24/10/2026\n
 comment1.params=
 comment1.target=Vassoura()
-comment2.params=
-comment2.target=void\ act()
-numComments=3
+comment1.text=\n\ Cria\ a\ vassoura.\n
+numComments=2

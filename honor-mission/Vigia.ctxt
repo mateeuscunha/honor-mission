@@ -1,13 +1,16 @@
 #BlueJ class context
 comment0.target=Vigia
-comment0.text=\r\n\ Representa\ um\ vigia\ vilao,\ que\ patrulha\ para\ proteger\ o\ saque\ ao\ TG.\r\n\ \r\n\ @author\ (Mateus\ Cunha)\ \r\n\ @version\ (22/10/2026)\r\n
-comment1.params=
-comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Vigia\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment0.text=\n\ Vigia\ que\ patrulha\ uma\ rota\ horizontal\ e\ atira\ no\ jogador\n\ quando\ ele\ chega\ perto.\n\n\ @author\ Mateus\ Cunha\n\ @version\ 22/10/2026\n
+comment1.params=limiteEsquerdo\ limiteDireito
+comment1.target=Vigia(int,\ int)
+comment1.text=\n\ Cria\ um\ vigia\ que\ patrulha\ entre\ dois\ limites\ horizontais.\n\n\ @param\ limiteEsquerdo\ coordenada\ X\ mais\ \u00E0\ esquerda\ da\ patrulha.\n\ @param\ limiteDireito\ coordenada\ X\ mais\ \u00E0\ direita\ da\ patrulha.\n
 comment2.params=
-comment2.target=void\ patrulhar()
-comment2.text=\r\n\ Vigia\ se\ movimenta\ pela\ rota\ de\ patrulha\r\n
+comment2.target=void\ act()
+comment2.text=\n\ Atira\ se\ o\ jogador\ estiver\ perto,\ sen\u00E3o\ continua\ patrulhando.\n
 comment3.params=
-comment3.target=void\ atirar()
-comment3.text=\r\n\ Atira\ na\ direcao\ do\ jogador,\ respeitando\ o\ tempo\ de\ recarga.\r\n
-numComments=4
+comment3.target=void\ patrulhar()
+comment3.text=\n\ Anda\ pela\ rota\ de\ patrulha,\ invertendo\ o\ sentido\ ao\ chegar\ nos\ limites.\n
+comment4.params=
+comment4.target=void\ atirar()
+comment4.text=\n\ Atira\ na\ dire\u00E7\u00E3o\ do\ jogador,\ respeitando\ o\ tempo\ de\ recarga.\n
+numComments=5

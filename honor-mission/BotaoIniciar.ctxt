@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=BotaoIniciar
-comment0.text=\r\n\ Classe\ botao\ iniciar\ \r\n\ \r\n\ @author\ (Gabriel\ Pedrozo\ &&\ Mateus\ Cunha)\ \r\n
+comment0.text=\n\ Classe\ botao\ iniciar\ \n\ \n\ @author\ (Gabriel\ Pedrozo\ &&\ Mateus\ Cunha)\ \n
 comment1.params=
 comment1.target=BotaoIniciar()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BotaoIniciar\r\n
+comment1.text=\n\ Construtor\ para\ o\ botao\ iniciar.\n
 comment2.params=
 comment2.target=void\ aoClicar()
 numComments=3

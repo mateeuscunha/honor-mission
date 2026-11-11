@@ -1,66 +1,93 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
 /**
- * Representa um vigia vilao, que patrulha para proteger o saque ao TG.
- * 
- * @author (Mateus Cunha) 
- * @version (22/10/2026)
+ * Vigia que patrulha uma rota horizontal e atira no jogador
+ * quando ele chega perto.
+ *
+ * @author Mateus Cunha
+ * @version 22/10/2026
  */
 public class Vigia extends Vilao
-{   
-    private static final int TEMPO_RECARGA = 45; // acts entre um tiro e outro
-    
+{
+    private static final int TEMPO_RECARGA = 45; // acts entre tiros
+    private static final int VELOCIDADE_PATRULHA = 3;
+
+    private int limiteEsquerdo;
+    private int limiteDireito;
     private boolean patrulhandoOeste;
-    private int recarga = 0;
-    
+
     /**
-     * Act - do whatever the Vigia wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Cria um vigia que patrulha entre dois limites horizontais.
+     *
+     * @param limiteEsquerdo coordenada X mais à esquerda da patrulha.
+     * @param limiteDireito coordenada X mais à direita da patrulha.
      */
+    public Vigia(int limiteEsquerdo, int limiteDireito)
+    {
+        this.limiteEsquerdo = limiteEsquerdo;
+        this.limiteDireito = limiteDireito;
+        patrulhandoOeste = false;
+    }
+
+    /**
+     * Atira se o jogador estiver perto, senão continua patrulhando.
+     */
+    @Override
     public void act()
     {
-        if (recarga > 0) {
-            recarga--;
-        }
-        
-        if(jogadorPerto()) {
+        atualizarRecarga();
+
+        if (jogadorPerto())
+        {
             atirar();
-        } else {
-            patrulhar();   
+        }
+        else
+        {
+            patrulhar();
         }
     }
-    
+
     /**
-     * Vigia se movimenta pela rota de patrulha
+     * Anda pela rota de patrulha, invertendo o sentido ao chegar nos limites.
      */
-    private void patrulhar() {
-        if (getX() <= 564) {
+    private void patrulhar()
+    {
+        if (getX() <= limiteEsquerdo)
+        {
             patrulhandoOeste = false;
-        } else if (getX() >= 864) {
+        }
+        else if (getX() >= limiteDireito)
+        {
             patrulhandoOeste = true;
         }
-        if (patrulhandoOeste) {
-            move(-3);
-        } else {
-            move(3);
+
+        if (patrulhandoOeste)
+        {
+            move(-VELOCIDADE_PATRULHA);
+        }
+        else
+        {
+            move(VELOCIDADE_PATRULHA);
         }
     }
-    
+
     /**
-     * Atira na direcao do jogador, respeitando o tempo de recarga.
+     * Atira na direção do jogador, respeitando o tempo de recarga.
      */
-    private void atirar() {
-        if (recarga > 0) {
+    private void atirar()
+    {
+        if (!recargaPronta())
+        {
             return;
         }
-        
-        Jogador jogador = getObjectsInRange(100, Jogador.class).get(0);
-        
+
+        Jogador jogador = getObjectsInRange(ALCANCE_PERCEPCAO, Jogador.class).get(0);
+
         Tiro tiro = new Tiro(0);
         getWorld().addObject(tiro, getX(), getY());
         tiro.turnTowards(jogador.getX(), jogador.getY());
         Greenfoot.playSound("tiro.wav");
-        
-        recarga = TEMPO_RECARGA;
+
+        iniciarRecarga(TEMPO_RECARGA);
     }
 }

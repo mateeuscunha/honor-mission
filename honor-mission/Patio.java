@@ -15,7 +15,6 @@ public class Patio extends World
      */
     public Patio()
     {    
-        // Create a new world with 800x600 cells with a cell size of 1x1 pixels.
         super(1000, 750, 1); 
         prepare();
 
@@ -39,7 +38,7 @@ public class Patio extends World
     {
         Jogador jogador = new Jogador();
         addObject(jogador,883,523);
-        Vigia vigia = new Vigia();
+        Vigia vigia = new Vigia(564,864);
         addObject(vigia,754,265);
         Rato rato = new Rato();
         addObject(rato,354,265);

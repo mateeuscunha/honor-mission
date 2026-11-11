@@ -1,8 +1,10 @@
 #BlueJ class context
 comment0.target=ItemColecionavel
-comment0.text=\r\n\ Classe\ base\ para\ itens\ que\ ficam\ na\ cole\u00E7\u00E3o\ do\ jogador.\r\n\r\n\ @author\ Gabriel\ Pedrozo\r\n\ @version\ 10/11/2026\r\n
+comment0.text=\n\ Item\ que\ vai\ para\ a\ cole\u00E7\u00E3o\ do\ jogador\ e\ vale\ pontos.\n\n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ 10/11/2026\n
 comment1.params=nome\ descricao\ pontos
 comment1.target=ItemColecionavel(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\n\ Cria\ um\ item\ colecion\u00E1vel.\n\n\ @param\ nome\ nome\ do\ item.\n\ @param\ descricao\ breve\ descri\u00E7\u00E3o\ do\ item.\n\ @param\ pontos\ pontos\ ganhos\ ao\ coletar\ o\ item.\n
 comment2.params=
 comment2.target=int\ getPontos()
+comment2.text=\n\ @return\ os\ pontos\ que\ o\ item\ vale.\n
 numComments=3

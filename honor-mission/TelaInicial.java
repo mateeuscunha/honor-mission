@@ -1,15 +1,14 @@
 import greenfoot.*;
 /**
- * Write a description of class TelaInicial here.
+ * Tela inicial do jogo.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Gabriel Pedrozo && Mateus Cunha) 
+ * @version (11/10/2026)
  */
 public class TelaInicial  extends World
 {
-
     /**
-     * Constructor for objects of class TelaInicial
+     * Construtor padrao para a tela inicial.
      */
     public TelaInicial()
     {

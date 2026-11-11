@@ -1,25 +1,27 @@
 import greenfoot.*;
+
 /**
- * Botao para retornar a tela inicial.
+ * Botão que leva o jogador de volta à tela inicial.
  *
- * @author Gabriel Pedrozo
+ * @author Gabriel Pedrozo && Mateus Cunha
  * @version 10/11/2026
  */
-public class BotaoVoltar extends Actor
+public class BotaoVoltar extends Botao
 {
+    /**
+     * Cria o botão de voltar com a imagem de saída.
+     */
     public BotaoVoltar()
     {
-        GreenfootImage imagem = new GreenfootImage("sair.png");
-
-        setImage(imagem);
+        super("sair.png");
     }
 
-    public void act()
+    /**
+     * Ao clicar, retorna para a tela inicial do jogo.
+     */
+    @Override
+    public void aoClicar()
     {
-        if (Greenfoot.mouseClicked(this))
-        {
-            Greenfoot.setWorld(new TelaInicial());
-        }
+        Greenfoot.setWorld(new TelaInicial());
     }
 }
-

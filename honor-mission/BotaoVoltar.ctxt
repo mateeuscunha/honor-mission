@@ -1,8 +1,10 @@
 #BlueJ class context
 comment0.target=BotaoVoltar
-comment0.text=\r\n\ Botao\ para\ retornar\ a\ tela\ inicial.\r\n\r\n\ @author\ Gabriel\ Pedrozo\r\n\ @version\ 10/11/2026\r\n
+comment0.text=\n\ Bot\u00E3o\ que\ leva\ o\ jogador\ de\ volta\ \u00E0\ tela\ inicial.\n\n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ 10/11/2026\n
 comment1.params=
 comment1.target=BotaoVoltar()
+comment1.text=\n\ Cria\ o\ bot\u00E3o\ de\ voltar\ com\ a\ imagem\ de\ sa\u00EDda.\n
 comment2.params=
-comment2.target=void\ act()
+comment2.target=void\ aoClicar()
+comment2.text=\n\ Ao\ clicar,\ retorna\ para\ a\ tela\ inicial\ do\ jogo.\n
 numComments=3

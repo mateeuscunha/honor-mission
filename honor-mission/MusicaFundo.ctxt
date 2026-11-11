@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=MusicaFundo
-comment0.text=\r\n\ Controla\ a\ musica\ de\ fundo\ do\ jogo.\r\n\ O\ som\ fica\ em\ um\ campo\ static\ para\ continuar\ tocando\r\n\ quando\ o\ jogador\ troca\ de\ mundo\ (Patio\ <->\ CasaVigia).\r\n\ \r\n\ @author\ (Mateus\ Cunha)\ \r\n\ @version\ (11/09/2026)\r\n
+comment0.text=\n\ Controla\ a\ musica\ de\ fundo\ do\ jogo.\n\ O\ som\ fica\ em\ um\ campo\ static\ para\ continuar\ tocando\n\ quando\ o\ jogador\ troca\ de\ mundo\ (Patio\ <->\ CasaVigia).\n\ \n\ @author\ (Mateus\ Cunha)\ \n\ @version\ (11/09/2026)\n
 comment1.params=
 comment1.target=void\ tocar()
-comment1.text=\r\n\ Toca\ a\ musica\ em\ loop.\ Se\ ja\ estiver\ tocando,\ nao\ faz\ nada,\r\n\ entao\ chamar\ de\ novo\ nao\ reinicia\ a\ musica.\r\n
+comment1.text=\n\ Toca\ a\ musica\ em\ loop.\ Se\ ja\ estiver\ tocando,\ nao\ faz\ nada,\n\ entao\ chamar\ de\ novo\ nao\ reinicia\ a\ musica.\n
 comment2.params=
 comment2.target=void\ parar()
-comment2.text=\r\n\ Para\ a\ musica.\r\n
+comment2.text=\n\ Para\ a\ musica.\n
 numComments=3

@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=TelaInstrucoes
-comment0.text=\r\n\ Tela\ que\ apresenta\ os\ controles\ e\ objetivos\ da\ missao.\r\n\r\n\ @author\ Gabriel\ Pedrozo\r\n\ @version\ 10/11/2026\r\n
+comment0.text=\n\ Tela\ que\ apresenta\ os\ controles\ e\ objetivos\ da\ missao.\n\n\ @author\ Gabriel\ Pedrozo\n\ @version\ 10/11/2026\n
 comment1.params=
 comment1.target=TelaInstrucoes()
 comment2.params=texto\ tamanho\ cor\ x\ y
 comment2.target=void\ escreverTexto(java.lang.String,\ int,\ greenfoot.Color,\ int,\ int)
-comment2.text=\r\n\ Desenha\ um\ texto\ centralizado\ na\ posicao\ indicada.\r\n
+comment2.text=\n\ Desenha\ um\ texto\ centralizado\ na\ posicao\ indicada.\n
 numComments=3

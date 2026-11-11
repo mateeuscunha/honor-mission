@@ -2,14 +2,13 @@ import greenfoot.*;
 /**
  * Write a description of class BotaoIniciar here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Gabriel Pedrozo && Mateus Cunha) 
+ * @version (11/10/2026)
  */
 public class BotaoInstrucoes extends Botao
 {
-    
     /**
-     * Constructor for objects of class BotaoIniciar
+     * Construtor para botao de instrucoes.
      */
     public BotaoInstrucoes()
     {

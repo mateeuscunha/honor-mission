@@ -1,12 +1,16 @@
 #BlueJ class context
 comment0.target=ItemUtilizavel
-comment0.text=\r\n\ Classe\ base\ para\ itens\ que\ podem\ ser\ utilizados\ pelo\ jogador.\r\n\r\n\ @author\ Gabriel\ Pedrozo\r\n\ @version\ 10/11/2026\r\n
+comment0.text=\n\ Item\ que\ o\ jogador\ guarda\ no\ invent\u00E1rio\ e\ pode\ utilizar.\n\n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ 10/11/2026\n
 comment1.params=nome\ descricao
 comment1.target=ItemUtilizavel(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Cria\ um\ item\ utiliz\u00E1vel\ permanente\ (n\u00E3o\ some\ ao\ ser\ usado).\n\n\ @param\ nome\ nome\ do\ item.\n\ @param\ descricao\ breve\ descri\u00E7\u00E3o\ do\ item.\n
 comment2.params=nome\ descricao\ consumivel
 comment2.target=ItemUtilizavel(java.lang.String,\ java.lang.String,\ boolean)
+comment2.text=\n\ Cria\ um\ item\ utiliz\u00E1vel.\n\n\ @param\ nome\ nome\ do\ item.\n\ @param\ descricao\ breve\ descri\u00E7\u00E3o\ do\ item.\n\ @param\ consumivel\ true\ se\ o\ item\ some\ do\ invent\u00E1rio\ ap\u00F3s\ ser\ usado.\n
 comment3.params=
 comment3.target=boolean\ isConsumivel()
+comment3.text=\n\ @return\ true\ se\ o\ item\ \u00E9\ consumido\ ao\ ser\ usado.\n
 comment4.params=jogador
 comment4.target=boolean\ usar(Jogador)
+comment4.text=\n\ Usa\ o\ item\ sobre\ o\ jogador.\ Por\ enquanto\ n\u00E3o\ faz\ nada.\n\n\ @param\ jogador\ jogador\ que\ est\u00E1\ usando\ o\ item.\n\ @return\ true\ se\ o\ item\ foi\ realmente\ usado.\n
 numComments=5

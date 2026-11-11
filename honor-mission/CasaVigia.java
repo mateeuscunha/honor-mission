@@ -42,12 +42,15 @@ public class CasaVigia  extends World
     private void prepare()
     {
         Jogador jogador = new Jogador();
-        jogador.getImage().scale(30,52);
+        jogador.setSufixoImagem("_casa");
         addObject(jogador, 612, 375);
 
         Vassoura vassoura = new Vassoura();
         vassoura.getImage().scale(35, 75);
         addObject(vassoura, 257, 130);
+        
+        Moeda moeda = new Moeda();
+        addObject(moeda, 1150, 310);
 
         // configuracoes da passagem de volta para o patio
         Passagem saida = new Passagem (50, 20, mundoAnterior, 776, 187);

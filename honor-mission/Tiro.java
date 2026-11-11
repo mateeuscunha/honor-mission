@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Tiro here.
+ * Classe que representa o disparo da arma de fogo.
  * 
  * @author (Mateus Cunha) 
  * @version (06/11/2026)

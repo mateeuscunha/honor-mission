@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class PassagemFase2 here.
+ * Passagem para a segunda fase.
  * 
  * @author (Mateus Cunha) 
  * @version (11/02/2026)
