@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 /**
  * Armazena os itens colecionáveis encontrados pelo jogador.
+ * ESSA CLASSE SERA IMPLEMENTADA PARA A PROXIMA ENTREGA.
  *
  * @author Gabriel Pedrozo && Mateus Cunha
  * @version 10/11/2026

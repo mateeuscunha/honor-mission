@@ -8,6 +8,10 @@ import greenfoot.*;
  */
 public class Moeda extends ItemColecionavel
 {
+    /**
+     * Construtor de moeda que define o nome, descricao, quantidade de pontos
+     * e a imagem do objeto.
+     */
     public Moeda()
     {
         super("Moeda", "Uma moeda encontrada pelo caminho.", 100);

@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 /**
  * Armazena os itens utilizáveis do jogador.
+ * ESSA CLASSE SERA IMPLEMENTADA PARA A PROXIMA ENTREGA.
  *
  * @author Gabriel Pedrozo
  * @version 10/11/2026

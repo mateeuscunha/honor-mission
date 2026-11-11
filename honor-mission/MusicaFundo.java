@@ -6,7 +6,7 @@ import greenfoot.*;
  * quando o jogador troca de mundo (Patio <-> CasaVigia).
  * 
  * @author (Mateus Cunha) 
- * @version (11/09/2026)
+ * @version (11/11/2026)
  */
 public class MusicaFundo  
 {

@@ -24,6 +24,9 @@ public class PassagemFase2 extends Passagem
         return getWorld().getObjects(Rato.class).isEmpty();
     }
     
+    /**
+     * Define a mensagem de bloqueio especifica da passagem para a fase 2.
+     */
     @Override
     protected String mensagemBloqueio() {
         return "Elimine todos os ratos para passar!";

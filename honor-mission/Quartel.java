@@ -1,21 +1,18 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Quartel here.
+ * Classe que representa o quartel.
  * 
- * @author () 
- * @version (a version number or a date)
+ * @author Mateus Cunha 
+ * @version 11/11/2026
  */
 public class Quartel extends World
 {
-
     /**
-     * Constructor for objects of class Quartel.
-     * 
+     * Construtor para o quartel. SERÁ DESENVOLVIDO PARA AS PRÓXIMAS ENTREGAS.
      */
     public Quartel()
     {    
-        // Create a new world with 1000x750 cells with a cell size of 1x1 pixels.
         super(1000, 750, 1);
         addObject(new Jogador(), 100, 375);
 
@@ -26,5 +23,8 @@ public class Quartel extends World
         //responsavel pelos pontos e sua exibição
         PainelPontuacao painelPontuacao = new PainelPontuacao(150, 30);
         painelPontuacao.adicionarAoMundo(this);
+        
+        // mostra que o jogador chegou no fim do jogo para a primeira entrega
+        showText("MISSÃO CUMPRIDA!", 500, 50);
     }
 }
