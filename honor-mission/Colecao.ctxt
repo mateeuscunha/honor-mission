@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Colecao
-comment0.text=\n\ Armazena\ os\ itens\ colecion\u00E1veis\ encontrados\ pelo\ jogador.\n\n\ @author\ Gabriel\ Pedrozo\n\ @version\ 10/11/2026\n
+comment0.text=\n\ Armazena\ os\ itens\ colecion\u00E1veis\ encontrados\ pelo\ jogador.\n\n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ 10/11/2026\n
 comment1.params=
 comment1.target=Colecao()
 comment2.params=item

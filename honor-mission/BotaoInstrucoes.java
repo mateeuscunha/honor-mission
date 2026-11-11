@@ -1,9 +1,9 @@
 import greenfoot.*;
 /**
- * Write a description of class BotaoIniciar here.
+ * Classe que representa o botao que leva para a tela de instrucoes.
  * 
- * @author (Gabriel Pedrozo && Mateus Cunha) 
- * @version (11/10/2026)
+ * @author Gabriel Pedrozo && Mateus Cunha
+ * @version 11/10/2026
  */
 public class BotaoInstrucoes extends Botao
 {

@@ -10,20 +10,17 @@ public class Item extends Actor
 {
     private String nome;
     private String descricao;
-    private String tipo;
 
     /**
      * Cria um item.
      *
      * @param nome nome do item.
      * @param descricao breve descrição do item.
-     * @param tipo categoria do item ("UTILIZAVEL" ou "COLECIONAVEL").
      */
-    public Item(String nome, String descricao, String tipo)
+    public Item(String nome, String descricao)
     {
         this.nome = nome;
         this.descricao = descricao;
-        this.tipo = tipo;
     }
 
     /**
@@ -40,13 +37,5 @@ public class Item extends Actor
     public String getDescricao()
     {
         return descricao;
-    }
-
-    /**
-     * @return a categoria do item ("UTILIZAVEL" ou "COLECIONAVEL").
-     */
-    public String getTipo()
-    {
-        return tipo;
     }
 }

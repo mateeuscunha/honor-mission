@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=TelaInicial
-comment0.text=\n\ Tela\ inicial\ do\ jogo.\n\ \n\ @author\ (Gabriel\ Pedrozo\ &&\ Mateus\ Cunha)\ \n\ @version\ (11/10/2026)\n
+comment0.text=\n\ Tela\ inicial\ do\ jogo.\n\ \n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ (11/10/2026)\n
 comment1.params=
 comment1.target=TelaInicial()
 comment1.text=\n\ Construtor\ padrao\ para\ a\ tela\ inicial.\n

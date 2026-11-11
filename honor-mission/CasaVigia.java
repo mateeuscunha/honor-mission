@@ -28,13 +28,6 @@ public class CasaVigia  extends World
     }
 
     /**
-     * Volta para o mundo anterior.
-     */
-    public void voltarAoMundoAnterior() {
-        Greenfoot.setWorld(mundoAnterior);
-    }
-
-    /**
      * Prepara o mundo para o início do programa.
      * Ou seja: criar os objetos iniciais e adicioná-los ao mundo.
      */

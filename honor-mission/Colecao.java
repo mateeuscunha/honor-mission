@@ -1,10 +1,9 @@
 import java.util.ArrayList;
-import java.util.ArrayList;
 
 /**
  * Armazena os itens colecionáveis encontrados pelo jogador.
  *
- * @author Gabriel Pedrozo
+ * @author Gabriel Pedrozo && Mateus Cunha
  * @version 10/11/2026
  */
 public class Colecao

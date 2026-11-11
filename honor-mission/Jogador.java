@@ -257,11 +257,11 @@ public class Jogador extends Actor
             {
                 Item item = itens.get(0);
 
-                if (item.getTipo().equals("UTILIZAVEL"))
+                if (item instanceof ItemUtilizavel)
                 {
                     adicionarAoInventario((ItemUtilizavel) item);
                 }
-                else if (item.getTipo().equals("COLECIONAVEL"))
+                else if (item instanceof ItemColecionavel)
                 {
                     adicionarNaColecao((ItemColecionavel) item);
                 }

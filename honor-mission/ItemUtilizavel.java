@@ -16,7 +16,7 @@ public class ItemUtilizavel extends Item
      */
     public ItemUtilizavel(String nome, String descricao)
     {
-        super(nome, descricao, "UTILIZAVEL");
+        super(nome, descricao);
         this.consumivel = false;
     }
 
@@ -29,7 +29,7 @@ public class ItemUtilizavel extends Item
      */
     public ItemUtilizavel(String nome, String descricao, boolean consumivel)
     {
-        super(nome, descricao, "UTILIZAVEL");
+        super(nome, descricao);
         this.consumivel = consumivel;
     }
 

@@ -17,7 +17,7 @@ public class ItemColecionavel extends Item
      */
     public ItemColecionavel(String nome, String descricao, int pontos)
     {
-        super(nome, descricao, "COLECIONAVEL");
+        super(nome, descricao);
         this.pontos = pontos;
     }
 

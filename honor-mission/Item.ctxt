@@ -1,16 +1,13 @@
 #BlueJ class context
 comment0.target=Item
 comment0.text=\n\ Classe\ base\ para\ todos\ os\ itens\ do\ jogo.\n\n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ 10/11/2026\n
-comment1.params=nome\ descricao\ tipo
-comment1.target=Item(java.lang.String,\ java.lang.String,\ java.lang.String)
-comment1.text=\n\ Cria\ um\ item.\n\n\ @param\ nome\ nome\ do\ item.\n\ @param\ descricao\ breve\ descri\u00E7\u00E3o\ do\ item.\n\ @param\ tipo\ categoria\ do\ item\ ("UTILIZAVEL"\ ou\ "COLECIONAVEL").\n
+comment1.params=nome\ descricao
+comment1.target=Item(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Cria\ um\ item.\n\n\ @param\ nome\ nome\ do\ item.\n\ @param\ descricao\ breve\ descri\u00E7\u00E3o\ do\ item.\n
 comment2.params=
 comment2.target=java.lang.String\ getNome()
 comment2.text=\n\ @return\ o\ nome\ do\ item.\n
 comment3.params=
 comment3.target=java.lang.String\ getDescricao()
 comment3.text=\n\ @return\ a\ descri\u00E7\u00E3o\ do\ item.\n
-comment4.params=
-comment4.target=java.lang.String\ getTipo()
-comment4.text=\n\ @return\ a\ categoria\ do\ item\ ("UTILIZAVEL"\ ou\ "COLECIONAVEL").\n
-numComments=5
+numComments=4

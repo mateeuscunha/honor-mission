@@ -6,5 +6,5 @@ comment1.target=Tiro(int)
 comment1.text=\n\ @param\ anguloGraus\ direcao\ do\ tiro\ (0\ \=\ direita,\ 90\ \=\ baixo)\n
 comment2.params=
 comment2.target=void\ act()
-comment2.text=\n\ Act\ -\ do\ whatever\ the\ Tiroo\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.text=\n\ Act\ -\ O\ tiro\ se\ move\ na\ direcao\ do\ angulo\ inicial\ calculado\ de\ acordo\n\ com\ o\ jogador.\ Se\ acerta\ o\ jogador,\ da\ dano.\ Caso\ encoste\ na\ parede\n\ (obstaculo\ ou\ limites\ do\ mapa)\ o\ tiro\ some.\n
 numComments=3

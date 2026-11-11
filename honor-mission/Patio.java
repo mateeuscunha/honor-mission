@@ -1,16 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-import java.util.List;
 
 /**
  * Patio do Tiro de Guerra: onde o jogo inicia.
  * 
- * @author (Mateus Cunha && Gabriel Pedrozo) 
- * @version (08/11/2026)
+ * @author Mateus Cunha && Gabriel Pedrozo
+ * @version 08/11/2026
  */
 public class Patio extends World
 {
     /**
-     * Constructor for objects of class Patio.
+     * Construtor padrao para o patio.
      * 
      */
     public Patio()

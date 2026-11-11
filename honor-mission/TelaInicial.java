@@ -2,7 +2,7 @@ import greenfoot.*;
 /**
  * Tela inicial do jogo.
  * 
- * @author (Gabriel Pedrozo && Mateus Cunha) 
+ * @author Gabriel Pedrozo && Mateus Cunha
  * @version (11/10/2026)
  */
 public class TelaInicial  extends World

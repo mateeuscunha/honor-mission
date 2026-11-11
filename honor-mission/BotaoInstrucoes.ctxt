@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=BotaoInstrucoes
-comment0.text=\n\ Write\ a\ description\ of\ class\ BotaoIniciar\ here.\n\ \n\ @author\ (Gabriel\ Pedrozo\ &&\ Mateus\ Cunha)\ \n\ @version\ (11/10/2026)\n
+comment0.text=\n\ Classe\ que\ representa\ o\ botao\ que\ leva\ para\ a\ tela\ de\ instrucoes.\n\ \n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ 11/10/2026\n
 comment1.params=
 comment1.target=BotaoInstrucoes()
 comment1.text=\n\ Construtor\ para\ botao\ de\ instrucoes.\n

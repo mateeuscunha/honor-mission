@@ -10,11 +10,6 @@ public class Tiro extends Actor
 {
     private static final int VELOCIDADE = 6;
 
-    // posicao em double para o angulo nao ser distorcido pelo arredondamento
-    private double posX;
-    private double posY;
-    private double angulo; // em radianos
-
     /**
      * @param anguloGraus direcao do tiro (0 = direita, 90 = baixo)
      */
@@ -22,13 +17,13 @@ public class Tiro extends Actor
         GreenfootImage imagem = new GreenfootImage("tiro1.png");
         setImage(imagem);
 
-        angulo = Math.toRadians(anguloGraus);
         setRotation(anguloGraus);
     }
 
     /**
-     * Act - do whatever the Tiroo wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Act - O tiro se move na direcao do angulo inicial calculado de acordo
+     * com o jogador. Se acerta o jogador, da dano. Caso encoste na parede
+     * (obstaculo ou limites do mapa) o tiro some.
      */
      public void act()
     {
