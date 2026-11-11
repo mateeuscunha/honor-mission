@@ -6,4 +6,5 @@ comment1.target=BotaoInstrucoes()
 comment1.text=\n\ Construtor\ para\ botao\ de\ instrucoes.\n
 comment2.params=
 comment2.target=void\ aoClicar()
+comment2.text=\n\ Ao\ clicar,\ direciona\ para\ a\ tela\ de\ instrucoes.\n
 numComments=3

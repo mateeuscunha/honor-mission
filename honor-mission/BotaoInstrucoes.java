@@ -14,7 +14,11 @@ public class BotaoInstrucoes extends Botao
     {
         super("botao_instrucoes_new.png");
     }
-
+    
+    /**
+     * Ao clicar, direciona para a tela de instrucoes.
+     */
+    @Override
     public void aoClicar()
     {
         Greenfoot.setWorld(new TelaInstrucoes());
