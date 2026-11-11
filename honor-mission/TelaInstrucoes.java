@@ -14,7 +14,7 @@ public class TelaInstrucoes extends World
         super(1000, 740, 1);
 
         // Carrega a imagem de fundo.
-        GreenfootImage fundo = new GreenfootImage("instrucoes.png");
+        GreenfootImage fundo = new GreenfootImage("instrucoes.jpg");
         fundo.scale(1000, 750);
         setBackground(fundo);
         // Define as cores dos textos.

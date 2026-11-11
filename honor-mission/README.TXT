@@ -1,6 +1,6 @@
 TRABALHO DE IPOO - PRIMEIRA ENTREGA
 
-Nome do jogo: [NOME DO JOGO]
+Nome do jogo: Honor Mission
 
 Integrantes do grupo:
 - Mateus Cunha
