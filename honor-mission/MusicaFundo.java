@@ -11,7 +11,7 @@ import greenfoot.*;
 public class MusicaFundo  
 {
     private static final int VOLUME = 40;
-    private static GreenfootSound musica = new GreenfootSound("avante_camaradasREDUZIDO.mp3");
+    private static GreenfootSound musica = new GreenfootSound("avante_camaradas.wav");
 
     /**
      * Toca a musica em loop. Se ja estiver tocando, nao faz nada,

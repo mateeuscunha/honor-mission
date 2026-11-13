@@ -1,11 +1,11 @@
 #Greenfoot project file
-class.CasaVigia.image=casa_vigia_1200x470.jpg
+class.CasaVigia.image=casa_vigia_1200x470.png
 class.Jogador.image=jogador.png
-class.Patio.image=patio_1000x750.jpg
+class.Patio.image=patio_1000x750.png
 class.Quartel.image=sand.jpg
 class.Rato.image=rato.png
 class.TelaInicial.image=telainicial_1000x750.png
-class.TelaInstrucoes.image=instrucoes.jpg
+class.TelaInstrucoes.image=instrucoes.png
 class.Vassoura.image=vassoura.png
 class.Vigia.image=vigia.png
 dependency1.from=TelaInstrucoes
@@ -168,7 +168,7 @@ editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
-height=1048
+height=942
 package.numDependencies=52
 package.numTargets=28
 project.charset=UTF-8

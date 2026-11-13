@@ -37,7 +37,7 @@ Nomes dos arquivos utilizados que atendem ao requisito J4.9 (O jogo deve ter son
 R.: vassourada.wav, rato_morrendo.wav, dano.wav, pegar_item.wav, mordida.wav, tiro.wav, abrindo_porta.wav, game_over.wav
 
 Nome(s) do(s) arquivo(s) utilizado(s) que atende(m) ao requisito J4.10 (O jogo deve ter som de fundo (pelo menos um)).
-R.: avante_camaradasREDUZIDO.mp3
+R.: avante_camaradas.wav
 
 REQUISITOS DE IMPLEMENTAÇÃO - Indicar sim ou não em todas as questões.
 
