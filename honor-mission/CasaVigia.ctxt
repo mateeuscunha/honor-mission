@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=CasaVigia
-comment0.text=\n\ essa\ classe\ representa\ o\ cen\u00E1rio\ da\ casa\ do\ vigia\n\ \n\ @author\ (Gabriel\ Pedrozo\ &&\ Mateus\ Cunha)\ \n\ @version\ (24/10/2026)\n
+comment0.text=\n\ Essa\ classe\ representa\ o\ cen\u00E1rio\ da\ casa\ do\ vigia.\n\ \n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ 24/10/2026\n
 comment1.params=patio
 comment1.target=CasaVigia(greenfoot.World)
 comment1.text=\n\ Construtor\ do\ mundo\ Casa\ do\ Vigia.\n

@@ -32,7 +32,6 @@ public class Vigia extends Vilao
     /**
      * Atira se o jogador estiver perto, senão continua patrulhando.
      */
-    @Override
     public void act()
     {
         atualizarRecarga();

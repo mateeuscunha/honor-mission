@@ -15,7 +15,6 @@ public class Rato extends Vilao
      * Persegue o jogador se ele estiver perto, senão vagueia.
      * Em seguida tenta morder.
      */
-    @Override
     public void act()
     {
         atualizarRecarga();
@@ -29,20 +28,6 @@ public class Rato extends Vilao
             vaguear(1);
         }
 
-        morder();
-    }
-
-    /**
-     * Se estiver encostando no jogador e a recarga terminou, morde
-     * (tira uma vida) e inicia a recarga.
-     */
-    private void morder()
-    {
-        if (recargaPronta() && isTouching(Jogador.class))
-        {
-            Jogador.perderVida();
-            iniciarRecarga(TEMPO_MORDIDA);
-            Greenfoot.playSound("mordida.wav");
-        }
+        morder(TEMPO_MORDIDA, "mordida.wav");
     }
 }

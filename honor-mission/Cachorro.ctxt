@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Cachorro
+comment0.text=\n\ Essa\ classe\ representa\ o\ cao\ de\ guarda.\ Ele\ eh\ um\ inimigo\ que\ morde\ o\ player.\n\ \n\ @author\ Mateus\ Cunha\n\ @version\ 14/11/2026\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ O\ cachorro\ procura\ pelo\ jogador.\ Se\ o\ encontra,\ persegue-o\ e\ tenta\ morder.\n\ Se\ nao,\ ele\ fica\ vagueando\ pelo\ mapa.\n
+numComments=2

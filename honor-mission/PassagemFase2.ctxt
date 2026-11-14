@@ -9,4 +9,5 @@ comment2.target=boolean\ podePassar()
 comment2.text=\n\ So\ pode\ passar\ se\ nao\ houver\ mais\ ratos\ no\ mundo.\n
 comment3.params=
 comment3.target=java.lang.String\ mensagemBloqueio()
+comment3.text=\n\ Define\ a\ mensagem\ de\ bloqueio\ especifica\ da\ passagem\ para\ a\ fase\ 2.\n
 numComments=4

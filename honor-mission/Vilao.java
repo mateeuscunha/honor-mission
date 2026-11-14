@@ -87,4 +87,18 @@ public class Vilao extends Actor
             turn(angulo);
         }
     }
+    
+    /**
+     * Se estiver encostando no jogador e a recarga terminou, morde
+     * (tira uma vida) e inicia a recarga.
+     */
+    protected void morder(int cooldown, String arquivoSomDaMordida)
+    {
+        if (recargaPronta() && isTouching(Jogador.class))
+        {
+            Jogador.perderVida();
+            iniciarRecarga(cooldown);
+            Greenfoot.playSound(arquivoSomDaMordida);
+        }
+    }
 }

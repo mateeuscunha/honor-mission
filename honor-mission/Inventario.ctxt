@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Inventario
-comment0.text=\n\ Armazena\ os\ itens\ utiliz\u00E1veis\ do\ jogador.\n\n\ @author\ Gabriel\ Pedrozo\n\ @version\ 10/11/2026\n
+comment0.text=\n\ Armazena\ os\ itens\ utiliz\u00E1veis\ do\ jogador.\n\ ESSA\ CLASSE\ SERA\ IMPLEMENTADA\ PARA\ A\ PROXIMA\ ENTREGA.\n\n\ @author\ Gabriel\ Pedrozo\n\ @version\ 10/11/2026\n
 comment1.params=
 comment1.target=Inventario()
 comment2.params=item

@@ -1,9 +1,9 @@
 import greenfoot.*;
 /**
- * essa classe representa o cenário da casa do vigia
+ * Essa classe representa o cenário da casa do vigia.
  * 
- * @author (Gabriel Pedrozo && Mateus Cunha) 
- * @version (24/10/2026)
+ * @author Gabriel Pedrozo && Mateus Cunha
+ * @version 24/10/2026
  */
 public class CasaVigia  extends World
 {
