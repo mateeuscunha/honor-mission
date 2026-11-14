@@ -23,8 +23,5 @@ public class Quartel extends World
         //responsavel pelos pontos e sua exibição
         PainelPontuacao painelPontuacao = new PainelPontuacao(150, 30);
         painelPontuacao.adicionarAoMundo(this);
-        
-        // mostra que o jogador chegou no fim do jogo para a primeira entrega
-        showText("MISSÃO CUMPRIDA!", 500, 50);
     }
 }
