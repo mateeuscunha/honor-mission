@@ -17,14 +17,6 @@ public class CasaVigia  extends World
         super(1200, 470, 1);
         this.mundoAnterior = patio;
         prepare();
-        
-        //parte responsavel pelas vidas e sua exibição
-        PainelVidas painelVidas = new PainelVidas(getWidth() - 80, getHeight() - 25);
-        painelVidas.adicionarAoMundo(this);
-        
-        //responsavel pelos pontos e sua exibição
-        PainelPontuacao painelPontuacao = new PainelPontuacao(100, getHeight() -25);
-        painelPontuacao.adicionarAoMundo(this);
     }
 
     /**
@@ -44,6 +36,14 @@ public class CasaVigia  extends World
         
         Moeda moeda = new Moeda();
         addObject(moeda, 1150, 310);
+        
+        //parte responsavel pelas vidas e sua exibição
+        PainelVidas painelVidas = new PainelVidas(getWidth() - 80, getHeight() - 25);
+        painelVidas.adicionarAoMundo(this);
+        
+        //responsavel pelos pontos e sua exibição
+        PainelPontuacao painelPontuacao = new PainelPontuacao(100, getHeight() -25);
+        painelPontuacao.adicionarAoMundo(this);
 
         // configuracoes da passagem de volta para o patio
         Passagem saida = new Passagem (50, 20, mundoAnterior, 776, 187);
