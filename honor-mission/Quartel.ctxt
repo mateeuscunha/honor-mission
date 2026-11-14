@@ -3,5 +3,5 @@ comment0.target=Quartel
 comment0.text=\n\ Classe\ que\ representa\ o\ quartel.\n\ \n\ @author\ Mateus\ Cunha\ \n\ @version\ 11/11/2026\n
 comment1.params=
 comment1.target=Quartel()
-comment1.text=\n\ Construtor\ para\ o\ quartel.\ SER\u00C1\ DESENVOLVIDO\ PARA\ AS\ PR\u00D3XIMAS\ ENTREGAS.\n
+comment1.text=\n\ Construtor\ para\ o\ quartel.\n
 numComments=2

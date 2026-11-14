@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Quartel extends World
 {
     /**
-     * Construtor para o quartel. SERÁ DESENVOLVIDO PARA AS PRÓXIMAS ENTREGAS.
+     * Construtor para o quartel.
      */
     public Quartel()
     {    
