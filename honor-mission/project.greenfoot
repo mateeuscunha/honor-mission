@@ -2,7 +2,7 @@
 class.CasaVigia.image=casa_vigia_1200x470.png
 class.Jogador.image=jogador.png
 class.Patio.image=patio_1000x750.png
-class.Quartel.image=sand.jpg
+class.Quartel.image=quartel_1000x750.png
 class.Rato.image=rato.png
 class.TelaInicial.image=telainicial_1000x750.png
 class.Vassoura.image=vassoura.png
@@ -162,10 +162,17 @@ dependency9.to=Jogador
 dependency9.type=UsesDependency
 editor.fx.0.height=737
 editor.fx.0.width=800
+<<<<<<< Updated upstream
 editor.fx.0.x=727
 editor.fx.0.y=160
 height=1048
 package.numDependencies=51
+=======
+editor.fx.0.x=594
+editor.fx.0.y=136
+height=1048
+package.numDependencies=52
+>>>>>>> Stashed changes
 package.numTargets=28
 project.charset=UTF-8
 publish.hasSource=false
@@ -379,6 +386,6 @@ target9.x=0
 target9.y=0
 version=3.1.0
 width=1853
-world.lastInstantiated=TelaInicial
+world.lastInstantiated=Quartel
 xPosition=67
 yPosition=32

@@ -10,8 +10,12 @@ public class Quartel extends World
 {
 
     /**
+<<<<<<< Updated upstream
      * Constructor for objects of class Quartel.
      * 
+=======
+     * Construtor para o quartel.
+>>>>>>> Stashed changes
      */
     public Quartel()
     {    
