@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=BotaoLaser
-comment0.text=\n\ Representa\ o\ bot\u00E3o\ respons\u00E1vel\ por\ desativar\ os\ lasers\ do\ Museu.\n\ O\ jogador\ precisa\ se\ aproximar\ e\ pressionar\ a\ tecla\ E\ para\ utiliz\u00E1-lo.\n\n\ @author\ Gabriel\ Pedrozo\n\ @version\ 15/11/2026\n
+comment0.text=\n\ Representa\ o\ bot\u00E3o\ respons\u00E1vel\ por\ desativar\ os\ lasers\ do\ Museu.\n\ O\ jogador\ precisa\ se\ aproximar\ e\ pressionar\ a\ tecla\ E\ para\ utiliz\u00E1-lo.\n\n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ 15/11/2026\n
 comment1.params=
 comment1.target=BotaoLaser()
 comment1.text=\n\ Inicializa\ o\ bot\u00E3o\ e\ define\ o\ estado\ inicial\ da\ tecla\ E.\n

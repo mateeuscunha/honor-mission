@@ -22,7 +22,7 @@ public class TelaInstrucoes extends World
         // Coluna da esquerda: controles.
         escreverTexto("CONTROLES", 27, dourado, 280, 285);
         escreverTexto("SETAS - Movimentar", 20, branco, 280, 340);
-        escreverTexto("E - Coletar itens", 20, branco, 280, 385);
+        escreverTexto("E - Interagir", 20, branco, 280, 385);
         escreverTexto("ESPACO - Atacar", 20, branco, 280, 430);
         escreverTexto("C - Usar cartao", 20, branco, 280, 475);
         escreverTexto("F - Atirar", 20, branco, 280, 520);

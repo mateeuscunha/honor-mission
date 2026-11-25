@@ -4,13 +4,13 @@ import java.util.List;
  * Representa o botão responsável por desativar os lasers do Museu.
  * O jogador precisa se aproximar e pressionar a tecla E para utilizá-lo.
  *
- * @author Gabriel Pedrozo
+ * @author Gabriel Pedrozo && Mateus Cunha
  * @version 15/11/2026
  */
 public class BotaoLaser extends Actor
 {
     private static final int ALCANCE = 60;
-    private boolean ePressionado;
+    private Tecla teclaDesativarLaser;
     private boolean utilizado = false;
 
     /**
@@ -20,9 +20,8 @@ public class BotaoLaser extends Actor
     public BotaoLaser()
     {
         setImage("botao_laser.png");
-        ePressionado = false;
+        teclaDesativarLaser = new Tecla("e");
     }
-
 
     /**
      * Verifica se o jogador está próximo e se a tecla E foi pressionada.
@@ -31,16 +30,13 @@ public class BotaoLaser extends Actor
      */
     public void act()
     {
-        boolean eAgora = Greenfoot.isKeyDown("e");
         List<Jogador> perto = getObjectsInRange(ALCANCE, Jogador.class);
 
-        if (eAgora && !perto.isEmpty() && !utilizado)
+        if (teclaDesativarLaser.foiApertada() && !perto.isEmpty() && !utilizado)
         {
             Greenfoot.playSound("desativa-laser.wav");
             Museu.desativarLasers();
             utilizado = true;
         }
-
-        ePressionado = eAgora;
     }
 }

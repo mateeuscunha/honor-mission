@@ -130,7 +130,8 @@ public class Jogador extends Actor
     }
     
     /**
-     * Se o jogador apertar X, tenta usar a arma do inventário.
+     * Se o jogador apertar a tecla de tiro,tenta usar a arma do 
+     * inventário.
      */
     private void atirar()
     {

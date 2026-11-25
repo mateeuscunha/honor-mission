@@ -2,8 +2,6 @@ import greenfoot.*;
 
 /**
  * Controla a musica de fundo do jogo.
- * O som fica em um campo static para continuar tocando
- * quando o jogador troca de mundo (Patio <-> CasaVigia).
  * 
  * @author (Mateus Cunha) 
  * @version (11/09/2026)

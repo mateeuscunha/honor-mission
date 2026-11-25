@@ -44,7 +44,7 @@ public class Patife extends Vilao
     }
     
     /**
-     * O patife morre com 3 golpes.
+     * O patife morre com um golpe.
      */
     @Override
     public void sofrerVassourada()
