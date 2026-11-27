@@ -39,4 +39,11 @@ public abstract class MundoJogo extends World
         PainelPontuacao painelPontuacao = new PainelPontuacao(100, getHeight() - 25);
         painelPontuacao.adicionarAoMundo(this);
     }
+    
+    /**
+     * Escreve uma dica que orienta o jogador.
+     */
+    protected void escreverDica(String dica, int x, int y) {
+        showText(dica, x, y);
+    }
 }

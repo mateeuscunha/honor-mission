@@ -2,8 +2,8 @@ import greenfoot.*;
 /**
  * Classe criada para os os elementos no mapa não serem atravessados pelo jogador;
  * 
- * @author (Gabriel Pedrozo && Mateus Cunha) 
- * @version (24/10)
+ * @author Gabriel Pedrozo && Mateus Cunha && Mirella Militani
+ * @version 24/10/2026
  */
 public class Obstaculo extends Actor
 {

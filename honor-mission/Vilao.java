@@ -9,7 +9,7 @@ import java.util.List;
  * @author Mateus Cunha
  * @version 25/10/2026
  */
-public class Vilao extends Actor
+public abstract class Vilao extends Actor
 {
     /** Distância, em pixels, em que o vilão percebe o jogador. */
     protected static final int ALCANCE_PERCEPCAO = 100;

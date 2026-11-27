@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Patio do Tiro de Guerra: onde o jogo inicia.
  * 
- * @author Mateus Cunha && Gabriel Pedrozo
+ * @author Mateus Cunha && Gabriel Pedrozo && Mirella Militani
  * @version 08/11/2026
  */
 public class Patio extends MundoJogo
@@ -25,6 +25,9 @@ public class Patio extends MundoJogo
      */
     private void prepare()
     {
+        escreverDica("Pegue a vassoura para matar os ratos", 185, getHeight() - 100);
+        escreverDica("Encontre a casa do vigia", 122, getHeight() - 80);
+        
         Jogador jogador = new Jogador();
         addObject(jogador,883,523);
         Vigia vigia = new Vigia(564,864);

@@ -26,6 +26,9 @@ public class CasaVigia extends MundoJogo
 
     private void prepare()
     {
+        escreverDica("Pegue a vassoura aqui", getWidth()/10, getHeight()/10);
+        escreverDica("Procure por colecionáveis", getWidth()/10 + 12, getHeight()/10 + 20);
+        
         Jogador jogador = new Jogador();
         jogador.setSufixoImagem("_casa");
         addObject(jogador, 612, 375);

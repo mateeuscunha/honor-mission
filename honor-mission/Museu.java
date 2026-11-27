@@ -78,6 +78,10 @@ public class Museu extends MundoJogo
      */
     private void prepare()
     {
+        escreverDica("Pegue a arma e o cartão", 185, getHeight() - 700);
+        escreverDica("Procure por colecionáveis", 189, getHeight() - 680);
+        escreverDica("O botão para desativar o laser não está aqui", 274, getHeight() - 660);
+        
         Jogador jogador = new Jogador();
         addObject(jogador, 883, 523);
 

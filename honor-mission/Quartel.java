@@ -29,6 +29,9 @@ public class Quartel extends MundoJogo
      */
     private void prepare()
     {
+        escreverDica("Procure a entrada para o Museu", 185, getHeight() - 100);
+        escreverDica("O cartão e a arma se encontrarão por lá", 218, getHeight() - 80);
+        
         Jogador jogador = new Jogador();
         addObject(jogador, 250, 580);
 

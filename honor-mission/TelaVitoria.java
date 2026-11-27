@@ -29,8 +29,8 @@ public class TelaVitoria extends TelaResultado
 
         BotaoVoltar botaoVoltar = new BotaoVoltar("sair_vitoria.png");
         addObject(botaoVoltar, 721, 628);
+        
         BotaoColecao botaoColecao = new BotaoColecao(this.colecao);
         addObject(botaoColecao,495,627);
-        
     }
 }

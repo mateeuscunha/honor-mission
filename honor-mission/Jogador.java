@@ -4,8 +4,8 @@ import java.util.List;
 /**
  * Representa o player: soldado que vai cumprir a missao no TG.
  * 
- * @author (Mateus Cunha && Gabriel Pedrozo) 
- * @version (15/11/2026)
+ * @author Mateus Cunha && Gabriel Pedrozo && Mirella Militani
+ * @version 15/11/2026
  */
 public class Jogador extends Actor
 {
