@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TelaColecao
+comment0.text=\n\ Tela\ respons\u00E1vel\ por\ exibir\ os\ itens\ coletados\ durante\ a\ partida.\n\n\ @author\ Gabriel\ Pedrozo\n\ @version\ 26/11/2026\n
+comment1.params=colecao\ telaAnterior
+comment1.target=TelaColecao(Colecao,\ greenfoot.World)
+comment2.params=
+comment2.target=void\ mostrarItens()
+comment2.text=\n\ Exibe\ os\ itens\ coletados\ durante\ a\ partida.\n
+comment3.params=
+comment3.target=void\ prepare()
+comment3.text=\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\n\ That\ is\:\ create\ the\ initial\ objects\ and\ add\ them\ to\ the\ world.\n
+numComments=4

@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=TelaVitoria
 comment0.text=\n\ Tela\ exibida\ quando\ o\ jogador\ vence\ a\ miss\u00E3o.\n\n\ @author\ Gabriel\ Pedrozo\n\ @version\ 19/11/2026\n
-comment1.params=
-comment1.target=TelaVitoria()
+comment1.params=colecao
+comment1.target=TelaVitoria(Colecao)
 comment1.text=\n\ Cria\ a\ tela\ de\ vit\u00F3ria\ e\ adiciona\ seus\ bot\u00F5es.\n
 comment2.params=
 comment2.target=void\ prepare()

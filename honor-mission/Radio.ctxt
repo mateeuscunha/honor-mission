@@ -1,6 +1,8 @@
 #BlueJ class context
 comment0.target=Radio
-comment0.text=\n\ Item\ colecionavel\ que\ aumenta\ a\ pontuacao\ do\ jogador.\n\n\ @author\ Mateus\ Cunha\n\ @version\ 10/11/2026\n
+comment0.text=\n\ Item\ colecionavel\ que\ aumenta\ a\ pontuacao\ do\ jogador.\n\n\ @author\ Mateus\ Cunha\ &&\ Gabriel\ Pedrozo\n\ @version\ 26/11/2026\n
 comment1.params=
 comment1.target=Radio()
-numComments=2
+comment2.params=
+comment2.target=greenfoot.GreenfootImage\ getImagemColecao()
+numComments=3

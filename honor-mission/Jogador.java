@@ -17,7 +17,7 @@ public class Jogador extends Actor
     private Tecla teclaColetar;
     private Tecla teclaCartao;
     private Tecla teclaTiro;
-    
+
     private int direcao; // ajuda a implementar o tiro. 0 direita, 90 baixo, 180 esquerda, 270 cima.
 
     private Inventario inventario;
@@ -128,7 +128,7 @@ public class Jogador extends Actor
             inventario.usar(Vassoura.NOME, this);
         }
     }
-    
+
     /**
      * Se o jogador apertar a tecla de tiro,tenta usar a arma do 
      * inventário.
@@ -191,6 +191,14 @@ public class Jogador extends Actor
     }
 
     /**
+     * Retorna a coleção de itens do jogador.
+     */
+    public Colecao getColecao()
+    {
+        return colecao;
+    }
+
+    /**
      * Transfere o inventario e a colecao para o jogador do proximo mundo.
      */
     public void transferirItensPara(Jogador destino)
@@ -212,13 +220,13 @@ public class Jogador extends Actor
             {
                 Item item = itens.get(0);
                 item.coletadoPor(this);
-                
+
                 getWorld().removeObject(item);
                 Greenfoot.playSound("pegar_item.wav");
             }
         }
     }
-    
+
     // metodo de ambiente
     /**
      * Retorna os Viloes que estao proximos.

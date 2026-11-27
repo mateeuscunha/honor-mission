@@ -1,13 +1,13 @@
 #BlueJ class context
 comment0.target=Botao
-comment0.text=\n\ Classe\ geral\ que\ representa\ os\ botoes\ no\ jogo.\n\ \n\ @author\ (Gabriel\ Pedrozo\ &&\ Mateus\ Cunha)\ \n
+comment0.text=\r\n\ Classe\ geral\ que\ representa\ os\ botoes\ no\ jogo.\r\n\ \r\n\ @author\ (Gabriel\ Pedrozo\ &&\ Mateus\ Cunha)\ \r\n
 comment1.params=arquivoImagem
 comment1.target=Botao(java.lang.String)
-comment1.text=\n\ Construtor\ padrao\ para\ botao.\n
+comment1.text=\r\n\ Construtor\ padrao\ para\ botao.\r\n
 comment2.params=
 comment2.target=void\ act()
-comment2.text=\n\ Confere\ se\ o\ botao\ foi\ clicado\ ou\ nao\ a\ cada\ act.\ Se\ foi,\ chama\ o\n\ metodo\ especifico\ aoClicar()\ que,\ a\ depender\ da\ classe,\ se\ comporta\n\ de\ maneira\ distinta.\n
+comment2.text=\r\n\ Confere\ se\ o\ botao\ foi\ clicado\ ou\ nao\ a\ cada\ act.\ Se\ foi,\ chama\ o\r\n\ metodo\ especifico\ aoClicar()\ que,\ a\ depender\ da\ classe,\ se\ comporta\r\n\ de\ maneira\ distinta.\r\n
 comment3.params=
 comment3.target=void\ aoClicar()
-comment3.text=\n\ Declara\ o\ metodo\ com\ a\ tag\ abstract,\ cada\ classe\ vai\ ter\ sua\n\ implementacao.\n
+comment3.text=\r\n\ Declara\ o\ metodo\ com\ a\ tag\ abstract,\ cada\ classe\ vai\ ter\ sua\r\n\ implementacao.\r\n
 numComments=4

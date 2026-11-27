@@ -1,3 +1,4 @@
+import greenfoot.*;
 /**
  * Item que vai para a coleção do jogador e vale pontos.
  *
@@ -20,7 +21,7 @@ public class ItemColecionavel extends Item
         super(nome, descricao);
         this.pontos = pontos;
     }
-    
+
     /**
      * Ao ser coletado, vai para a coleção do jogador e soma pontos.
      */
@@ -29,12 +30,17 @@ public class ItemColecionavel extends Item
     {
         jogador.adicionarNaColecao(this);
     }
-    
+
     /**
      * @return os pontos que o item vale.
      */
     public int getPontos()
     {
         return pontos;
+    }
+
+    public GreenfootImage getImagemColecao()
+    {
+        return new GreenfootImage(getImage());
     }
 }

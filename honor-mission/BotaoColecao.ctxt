@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=BotaoColecao
 comment0.text=\n\ Esse\ botao\ exibe\ os\ itens\ colecionaveis\ que\ o\ jogador\ pegou\ durante\ a\ partida.\n\ \n\ @author\ Mateus\ Cunha\ &&\ Gabriel\ Pedrozo\ \n\ @version\ 25/11/2026\n
-comment1.params=
-comment1.target=BotaoColecao()
+comment1.params=colecao
+comment1.target=BotaoColecao(Colecao)
 comment1.text=\n\ Construtor\ para\ o\ botao\ colecao.\n
 comment2.params=
 comment2.target=void\ aoClicar()

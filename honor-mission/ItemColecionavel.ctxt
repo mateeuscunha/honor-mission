@@ -10,4 +10,6 @@ comment2.text=\n\ Ao\ ser\ coletado,\ vai\ para\ a\ cole\u00E7\u00E3o\ do\ jogad
 comment3.params=
 comment3.target=int\ getPontos()
 comment3.text=\n\ @return\ os\ pontos\ que\ o\ item\ vale.\n
-numComments=4
+comment4.params=
+comment4.target=greenfoot.GreenfootImage\ getImagemColecao()
+numComments=5
