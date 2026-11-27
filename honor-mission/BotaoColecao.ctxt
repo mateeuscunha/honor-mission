@@ -6,4 +6,5 @@ comment1.target=BotaoColecao(Colecao)
 comment1.text=\n\ Construtor\ para\ o\ botao\ colecao.\n
 comment2.params=
 comment2.target=void\ aoClicar()
+comment2.text=\n\ Sobrescreve\ o\ metodo\ aoClicar(),\ indicando\ a\ acao\ especifica\ do\n\ BotaoColecao.\n
 numComments=3

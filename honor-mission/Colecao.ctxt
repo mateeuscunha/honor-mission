@@ -1,14 +1,18 @@
 #BlueJ class context
 comment0.target=Colecao
-comment0.text=\n\ Armazena\ os\ itens\ colecion\u00E1veis\ encontrados\ pelo\ jogador.\n\n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ 10/11/2026\n
+comment0.text=\n\ Armazena\ os\ itens\ colecion\u00E1veis\ encontrados\ pelo\ jogador.\n\ Cada\ jogador\ possui\ uma\ cole\u00E7\u00E3o,\ que\ \u00E9\ transferida\ de\ um\ mundo\n\ para\ o\ outro\ quando\ ele\ passa\ por\ uma\ Passagem.\n\ \n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ 10/11/2026\n
 comment1.params=
 comment1.target=Colecao()
+comment1.text=\n\ Cria\ uma\ cole\u00E7\u00E3o\ vazia.\n
 comment2.params=item
 comment2.target=void\ adicionar(ItemColecionavel)
+comment2.text=\n\ Adiciona\ um\ item\ \u00E0\ cole\u00E7\u00E3o.\ Itens\ nulos\ s\u00E3o\ ignorados.\n\n\ @param\ item\ item\ colecion\u00E1vel\ coletado\ pelo\ jogador.\n
 comment3.params=nome
 comment3.target=boolean\ contem(java.lang.String)
+comment3.text=\n\ Verifica\ se\ a\ cole\u00E7\u00E3o\ possui\ pelo\ menos\ um\ item\ com\ o\ nome\ informado.\n\n\ @param\ nome\ nome\ do\ item\ procurado\ (ex.\:\ Moeda.NOME).\n\ @return\ true\ se\ existir\ um\ item\ com\ esse\ nome,\ false\ caso\ contr\u00E1rio.\n
 comment4.params=
 comment4.target=int\ getQuantidade()
+comment4.text=\n\ Informa\ quantos\ itens\ foram\ coletados\ at\u00E9\ o\ momento.\n\n\ @return\ quantidade\ de\ itens\ na\ cole\u00E7\u00E3o.\n
 comment5.params=
 comment5.target=java.util.ArrayList\ getItens()
 comment5.text=\n\ Retorna\ os\ itens\ armazenados\ na\ cole\u00E7\u00E3o.\n

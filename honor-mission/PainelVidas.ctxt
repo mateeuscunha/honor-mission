@@ -1,11 +1,11 @@
 #BlueJ class context
 comment0.target=PainelVidas
-comment0.text=\r\n\ exibir\ as\ vidas\ do\ jogador.\r\n\r\n\ @author\ Gabriel\ Pedrozo\r\n\ @version\ 04/11\r\n
+comment0.text=\n\ exibir\ as\ vidas\ do\ jogador.\n\n\ @author\ Gabriel\ Pedrozo\n\ @version\ 04/11\n
 comment1.params=x\ y
 comment1.target=PainelVidas(int,\ int)
 comment2.params=
 comment2.target=void\ act()
 comment3.params=
 comment3.target=void\ atualizar()
-comment3.text=\r\n\ verifica\ a\ quantidade\ atual\ de\ vidas\ do\ jogador,\ \r\n\ cria\ uma\ imagem\ transparente\ e\ desenha\ um\ cora\u00E7\u00E3o\ para\ cada\ vida\ dispon\u00EDvel,\r\n\ atualizando\ a\ imagem\ do\ painel\ na\ tela.\r\n
+comment3.text=\n\ verifica\ a\ quantidade\ atual\ de\ vidas\ do\ jogador,\ \n\ cria\ uma\ imagem\ transparente\ e\ desenha\ um\ cora\u00E7\u00E3o\ para\ cada\ vida\ dispon\u00EDvel,\n\ atualizando\ a\ imagem\ do\ painel\ na\ tela.\n
 numComments=4

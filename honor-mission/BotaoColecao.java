@@ -19,7 +19,11 @@ public class BotaoColecao extends Botao
         super("botao_colecao.png"); 
         this.colecao = colecao;
     }
-
+    
+    /**
+     * Sobrescreve o metodo aoClicar(), indicando a acao especifica do
+     * BotaoColecao.
+     */
     @Override
     public void aoClicar() {
         Greenfoot.setWorld(new TelaColecao(colecao, getWorld())); 
