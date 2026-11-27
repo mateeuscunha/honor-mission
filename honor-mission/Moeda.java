@@ -9,10 +9,16 @@ import greenfoot.*;
 public class Moeda extends ItemColecionavel
 {
     public static final String NOME = "Moeda";
-    
+
     public Moeda()
     {
         super(NOME, "Uma moeda encontrada pelo caminho.", 100);
         setImage("moeda.png");
+    }
+
+    @Override
+    public GreenfootImage getImagemColecao()
+    {
+        return new GreenfootImage("moeda_colecao.png");
     }
 }

@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=TelaDerrota
-comment0.text=\n\ Tela\ exibida\ quando\ o\ jogador\ perde\ a\ miss\u00E3o.\n\n\ @author\ Gabriel\ Pedrozo\n\ @version\ 19/11/2026\n
+comment0.text=\r\n\ Tela\ exibida\ quando\ o\ jogador\ perde\ a\ miss\u00E3o.\r\n\r\n\ @author\ Gabriel\ Pedrozo\r\n\ @version\ 19/11/2026\r\n
 comment1.params=
 comment1.target=TelaDerrota()
-comment1.text=\n\ Cria\ a\ tela\ de\ derrota\ e\ adiciona\ seus\ bot\u00F5es.\n
+comment1.text=\r\n\ Cria\ a\ tela\ de\ derrota\ e\ adiciona\ seus\ bot\u00F5es.\r\n
 comment2.params=
 comment2.target=void\ prepare()
-comment2.text=\n\ Adiciona\ os\ bot\u00F5es\ de\ reiniciar\ e\ voltar\ ao\ menu.\n
+comment2.text=\r\n\ Adiciona\ os\ bot\u00F5es\ de\ reiniciar\ e\ voltar\ ao\ menu.\r\n
 numComments=3

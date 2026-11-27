@@ -1,13 +1,13 @@
 #BlueJ class context
 comment0.target=Quartel
-comment0.text=\n\ Essa\ classe\ representa\ o\ quartel\:\ ambiente\ principal\ da\ segunda\ fase\ do\ jogo.\n\ @author\ Mateus\ Cunha\n\ @version\ 14/11/2026\n
+comment0.text=\r\n\ Essa\ classe\ representa\ o\ quartel\:\ ambiente\ principal\ da\ segunda\ fase\ do\ jogo.\r\n\ @author\ Mateus\ Cunha\r\n\ @version\ 14/11/2026\r\n
 comment1.params=
 comment1.target=Quartel()
-comment1.text=\n\ Construtor\ para\ o\ quartel.\n
+comment1.text=\r\n\ Construtor\ para\ o\ quartel.\r\n
 comment2.params=
 comment2.target=PassagemFase3\ getPassagemFase3()
-comment2.text=\n\ Retorna\ a\ passagem\ para\ a\ fase\ 3.\ Ajuda\ no\ desbloqueio\ com\ cartao.\n
+comment2.text=\r\n\ Retorna\ a\ passagem\ para\ a\ fase\ 3.\ Ajuda\ no\ desbloqueio\ com\ cartao.\r\n
 comment3.params=
 comment3.target=void\ prepare()
-comment3.text=\n\ Prepara\ o\ mundo\ para\ o\ in\u00EDcio\ do\ programa.\n\ Ou\ seja\:\ criar\ os\ objetos\ iniciais\ e\ adicion\u00E1-los\ ao\ mundo.\n
+comment3.text=\r\n\ Prepara\ o\ mundo\ para\ o\ in\u00EDcio\ do\ programa.\r\n\ Ou\ seja\:\ criar\ os\ objetos\ iniciais\ e\ adicion\u00E1-los\ ao\ mundo.\r\n
 numComments=4

@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=Tecla
-comment0.text=\n\ Representa\ uma\ tecla\ do\ teclado\ e\ detecta\ o\ momento\ exato\ em\ que\n\ ela\ \u00E9\ apertada,\ ignorando\ os\ acts\ em\ que\ ela\ apenas\ continua\ pressionada.\n\n\ @author\ Mateus\ Cunha\n\ @version\ 18/11/2026\n
+comment0.text=\r\n\ Representa\ uma\ tecla\ do\ teclado\ e\ detecta\ o\ momento\ exato\ em\ que\r\n\ ela\ \u00E9\ apertada,\ ignorando\ os\ acts\ em\ que\ ela\ apenas\ continua\ pressionada.\r\n\r\n\ @author\ Mateus\ Cunha\r\n\ @version\ 18/11/2026\r\n
 comment1.params=nome
 comment1.target=Tecla(java.lang.String)
-comment1.text=\n\ Cria\ o\ monitor\ de\ uma\ tecla.\n\n\ @param\ nome\ nome\ da\ tecla,\ como\ aceito\ por\ Greenfoot.isKeyDown.\n
+comment1.text=\r\n\ Cria\ o\ monitor\ de\ uma\ tecla.\r\n\r\n\ @param\ nome\ nome\ da\ tecla,\ como\ aceito\ por\ Greenfoot.isKeyDown.\r\n
 comment2.params=
 comment2.target=boolean\ foiApertada()
-comment2.text=\n\ Deve\ ser\ chamado\ uma\ vez\ por\ act.\n\n\ @return\ true\ somente\ no\ act\ em\ que\ a\ tecla\ passou\ de\ solta\ para\ pressionada.\n
+comment2.text=\r\n\ Deve\ ser\ chamado\ uma\ vez\ por\ act.\r\n\r\n\ @return\ true\ somente\ no\ act\ em\ que\ a\ tecla\ passou\ de\ solta\ para\ pressionada.\r\n
 numComments=3

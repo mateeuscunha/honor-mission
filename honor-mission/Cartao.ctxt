@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=Cartao
-comment0.text=\n\ Cartao\ eh\ um\ item\ consumivel\ que\ desbloqueia\ a\ passagem\ para\ a\ terceira\ fase.\n\ \n\ @author\ Mateus\ Cunha\ &&\ Gabriel\ Pedrozo\n\ @version\ 17/11/2026\n
+comment0.text=\r\n\ Cartao\ eh\ um\ item\ consumivel\ que\ desbloqueia\ a\ passagem\ para\ a\ terceira\ fase.\r\n\ \r\n\ @author\ Mateus\ Cunha\ &&\ Gabriel\ Pedrozo\r\n\ @version\ 17/11/2026\r\n
 comment1.params=
 comment1.target=Cartao()
-comment1.text=\n\ Cria\ o\ cartao.\n
+comment1.text=\r\n\ Cria\ o\ cartao.\r\n
 comment2.params=jogador
 comment2.target=boolean\ usar(Jogador)
-comment2.text=\n\ Ao\ usar\ o\ cartao,\ se\ tiver\ o\ jogador\ estiver\ no\ quartel\ e\ a\ porta\n\ estiver\ bloqueada,\ ocorre\ o\ desbloqueio\ e\ retorna\ true.\n
+comment2.text=\r\n\ Ao\ usar\ o\ cartao,\ se\ tiver\ o\ jogador\ estiver\ no\ quartel\ e\ a\ porta\r\n\ estiver\ bloqueada,\ ocorre\ o\ desbloqueio\ e\ retorna\ true.\r\n
 numComments=3

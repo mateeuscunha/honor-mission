@@ -1,19 +1,19 @@
 #BlueJ class context
 comment0.target=Museu
-comment0.text=\n\ Representa\ o\ museu\ de\ rel\u00EDquias\ do\ quartel,\ onde\ o\ jogador\n\ precisa\ encontrar\ uma\ maneira\ de\ desativar\ os\ lasers.\n\n\ @author\ Mateus\ Cunha\ &&\ Gabriel\ Pedrozo\n\ @version\ 15/11/2026\n
+comment0.text=\r\n\ Representa\ o\ museu\ de\ rel\u00EDquias\ do\ quartel,\ onde\ o\ jogador\r\n\ precisa\ encontrar\ uma\ maneira\ de\ desativar\ os\ lasers.\r\n\r\n\ @author\ Mateus\ Cunha\ &&\ Gabriel\ Pedrozo\r\n\ @version\ 15/11/2026\r\n
 comment1.params=quartel
 comment1.target=Museu(greenfoot.World)
-comment1.text=\n\ Cria\ o\ mundo\ Museu\ e\ prepara\ o\ cen\u00E1rio.\n
+comment1.text=\r\n\ Cria\ o\ mundo\ Museu\ e\ prepara\ o\ cen\u00E1rio.\r\n
 comment2.params=
 comment2.target=void\ desativarLasers()
-comment2.text=\n\ Desativa\ os\ lasers\ do\ Museu.\n
+comment2.text=\r\n\ Desativa\ os\ lasers\ do\ Museu.\r\n
 comment3.params=
 comment3.target=void\ reiniciarLasers()
-comment3.text=\n\ Reinicia\ os\ lasers\ para\ uma\ nova\ partida.\n
+comment3.text=\r\n\ Reinicia\ os\ lasers\ para\ uma\ nova\ partida.\r\n
 comment4.params=
 comment4.target=void\ act()
-comment4.text=\n\ Verifica\ se\ o\ estado\ dos\ lasers\ mudou.\n\ Atualiza\ o\ cen\u00E1rio\ e\ remove\ os\ lasers\ quando\ necess\u00E1rio.\n
+comment4.text=\r\n\ Verifica\ se\ o\ estado\ dos\ lasers\ mudou.\r\n\ Atualiza\ o\ cen\u00E1rio\ e\ remove\ os\ lasers\ quando\ necess\u00E1rio.\r\n
 comment5.params=
 comment5.target=void\ prepare()
-comment5.text=\n\ Prepara\ o\ mundo,\ adicionando\ o\ jogador\ e\ os\ lasers.\n
+comment5.text=\r\n\ Prepara\ o\ mundo,\ adicionando\ o\ jogador\ e\ os\ lasers.\r\n
 numComments=6

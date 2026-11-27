@@ -1,16 +1,16 @@
 #BlueJ class context
 comment0.target=Item
-comment0.text=\n\ Classe\ base\ para\ todos\ os\ itens\ do\ jogo.\n\n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ 10/11/2026\n
+comment0.text=\r\n\ Classe\ base\ para\ todos\ os\ itens\ do\ jogo.\r\n\r\n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\r\n\ @version\ 10/11/2026\r\n
 comment1.params=nome\ descricao
 comment1.target=Item(java.lang.String,\ java.lang.String)
-comment1.text=\n\ Cria\ um\ item.\n\n\ @param\ nome\ nome\ do\ item.\n\ @param\ descricao\ breve\ descri\u00E7\u00E3o\ do\ item.\n
+comment1.text=\r\n\ Cria\ um\ item.\r\n\r\n\ @param\ nome\ nome\ do\ item.\r\n\ @param\ descricao\ breve\ descri\u00E7\u00E3o\ do\ item.\r\n
 comment2.params=
 comment2.target=java.lang.String\ getNome()
-comment2.text=\n\ @return\ o\ nome\ do\ item.\n
+comment2.text=\r\n\ @return\ o\ nome\ do\ item.\r\n
 comment3.params=
 comment3.target=java.lang.String\ getDescricao()
-comment3.text=\n\ @return\ a\ descri\u00E7\u00E3o\ do\ item.\n
+comment3.text=\r\n\ @return\ a\ descri\u00E7\u00E3o\ do\ item.\r\n
 comment4.params=jogador
 comment4.target=void\ coletadoPor(Jogador)
-comment4.text=\n\ Define\ o\ que\ acontece\ quando\ o\ jogador\ coleta\ este\ item.\n\ Cada\ tipo\ de\ item\ decide\ onde\ ele\ \u00E9\ guardado.\n\n\ @param\ jogador\ jogador\ que\ coletou\ o\ item.\n
+comment4.text=\r\n\ Define\ o\ que\ acontece\ quando\ o\ jogador\ coleta\ este\ item.\r\n\ Cada\ tipo\ de\ item\ decide\ onde\ ele\ \u00E9\ guardado.\r\n\r\n\ @param\ jogador\ jogador\ que\ coletou\ o\ item.\r\n
 numComments=5

@@ -40,5 +40,13 @@ public class Colecao
     {
         return itens.size();
     }
+
+    /**
+     * Retorna os itens armazenados na coleção.
+     */
+    public ArrayList<ItemColecionavel> getItens()
+    {
+        return new ArrayList<ItemColecionavel>(itens);
+    }
 }
 

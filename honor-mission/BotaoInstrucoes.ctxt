@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=BotaoInstrucoes
-comment0.text=\n\ Classe\ que\ representa\ o\ botao\ que\ leva\ para\ a\ tela\ de\ instrucoes.\n\ \n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ 11/10/2026\n
+comment0.text=\r\n\ Classe\ que\ representa\ o\ botao\ que\ leva\ para\ a\ tela\ de\ instrucoes.\r\n\ \r\n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\r\n\ @version\ 11/10/2026\r\n
 comment1.params=
 comment1.target=BotaoInstrucoes()
-comment1.text=\n\ Construtor\ para\ botao\ de\ instrucoes.\n
+comment1.text=\r\n\ Construtor\ para\ botao\ de\ instrucoes.\r\n
 comment2.params=
 comment2.target=void\ aoClicar()
-comment2.text=\n\ Ao\ clicar,\ direciona\ para\ a\ tela\ de\ instrucoes.\n
+comment2.text=\r\n\ Ao\ clicar,\ direciona\ para\ a\ tela\ de\ instrucoes.\r\n
 numComments=3

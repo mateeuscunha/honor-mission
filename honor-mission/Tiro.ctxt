@@ -1,19 +1,19 @@
 #BlueJ class context
 comment0.target=Tiro
-comment0.text=\n\ Classe\ que\ representa\ o\ disparo\ da\ arma\ de\ fogo.\n\ \n\ @author\ (Mateus\ Cunha)\ \n\ @version\ (06/11/2026)\n
+comment0.text=\r\n\ Classe\ que\ representa\ o\ disparo\ da\ arma\ de\ fogo.\r\n\ \r\n\ @author\ (Mateus\ Cunha)\ \r\n\ @version\ (06/11/2026)\r\n
 comment1.params=anguloGraus
 comment1.target=Tiro(int)
-comment1.text=\n\ Cria\ um\ tiro\ de\ vilao\ (fere\ o\ jogador).\n\n\ @param\ anguloGraus\ direcao\ do\ tiro\ (0\ \=\ direita,\ 90\ \=\ baixo)\n
+comment1.text=\r\n\ Cria\ um\ tiro\ de\ vilao\ (fere\ o\ jogador).\r\n\r\n\ @param\ anguloGraus\ direcao\ do\ tiro\ (0\ \=\ direita,\ 90\ \=\ baixo)\r\n
 comment2.params=anguloGraus\ doJogador
 comment2.target=Tiro(int,\ boolean)
-comment2.text=\n\ Cria\ um\ tiro.\n\n\ @param\ anguloGraus\ direcao\ do\ tiro\ (0\ \=\ direita,\ 90\ \=\ baixo)\n\ @param\ doJogador\ true\ se\ o\ tiro\ foi\ disparado\ pelo\ jogador\n
+comment2.text=\r\n\ Cria\ um\ tiro.\r\n\r\n\ @param\ anguloGraus\ direcao\ do\ tiro\ (0\ \=\ direita,\ 90\ \=\ baixo)\r\n\ @param\ doJogador\ true\ se\ o\ tiro\ foi\ disparado\ pelo\ jogador\r\n
 comment3.params=
 comment3.target=void\ act()
-comment3.text=\n\ O\ tiro\ se\ move\ na\ direcao\ do\ angulo\ inicial.\ Se\ encosta\ na\ parede\n\ (obstaculo\ ou\ limites\ do\ mapa)\ some.\ Se\ acerta\ um\ alvo,\ causa\ dano.\n
+comment3.text=\r\n\ O\ tiro\ se\ move\ na\ direcao\ do\ angulo\ inicial.\ Se\ encosta\ na\ parede\r\n\ (obstaculo\ ou\ limites\ do\ mapa)\ some.\ Se\ acerta\ um\ alvo,\ causa\ dano.\r\n
 comment4.params=
 comment4.target=void\ acertarJogador()
-comment4.text=\n\ Tiro\ de\ vilao\:\ tira\ uma\ vida\ do\ jogador,\ se\ acertar.\n
+comment4.text=\r\n\ Tiro\ de\ vilao\:\ tira\ uma\ vida\ do\ jogador,\ se\ acertar.\r\n
 comment5.params=
 comment5.target=void\ acertarVilao()
-comment5.text=\n\ Tiro\ do\ jogador\:\ causa\ dano\ no\ vilao\ atingido,\ se\ acertar.\n
+comment5.text=\r\n\ Tiro\ do\ jogador\:\ causa\ dano\ no\ vilao\ atingido,\ se\ acertar.\r\n
 numComments=6

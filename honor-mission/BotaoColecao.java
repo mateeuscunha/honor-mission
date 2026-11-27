@@ -8,16 +8,20 @@ import greenfoot.*;
  */
 public class BotaoColecao extends Botao
 {
+    private Colecao colecao;
+
     /**
      * Construtor para o botao colecao.
      */
-    public BotaoColecao()
-    {
-        super("iniciar_missao.png"); //TROCAR
-    }
     
+    public BotaoColecao(Colecao colecao)
+    {
+        super("botao_colecao.png"); 
+        this.colecao = colecao;
+    }
+
     @Override
     public void aoClicar() {
-        Greenfoot.setWorld(new TelaInstrucoes()); //TROCAR
+        Greenfoot.setWorld(new TelaColecao(colecao, getWorld())); 
     }
 }

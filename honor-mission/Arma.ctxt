@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=Arma
-comment0.text=\n\ Item\ utiliz\u00E1vel\ que\ permite\ ao\ jogador\ atirar\ nos\ patifes.\n\ N\u00E3o\ \u00E9\ consum\u00EDvel\:\ fica\ no\ invent\u00E1rio\ depois\ de\ coletada.\n\n\ @author\ Mateus\ Cunha\n\ @version\ 18/11/2026\n
+comment0.text=\r\n\ Item\ utiliz\u00E1vel\ que\ permite\ ao\ jogador\ atirar\ nos\ patifes.\r\n\ N\u00E3o\ \u00E9\ consum\u00EDvel\:\ fica\ no\ invent\u00E1rio\ depois\ de\ coletada.\r\n\r\n\ @author\ Mateus\ Cunha\r\n\ @version\ 18/11/2026\r\n
 comment1.params=
 comment1.target=Arma()
-comment1.text=\n\ Cria\ a\ arma.\n
+comment1.text=\r\n\ Cria\ a\ arma.\r\n
 comment2.params=jogador
 comment2.target=boolean\ usar(Jogador)
-comment2.text=\n\ Dispara\ um\ tiro\ a\ partir\ do\ jogador,\ na\ dire\u00E7\u00E3o\ em\ que\ ele\ olha.\n
+comment2.text=\r\n\ Dispara\ um\ tiro\ a\ partir\ do\ jogador,\ na\ dire\u00E7\u00E3o\ em\ que\ ele\ olha.\r\n
 numComments=3

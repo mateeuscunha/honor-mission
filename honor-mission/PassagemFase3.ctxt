@@ -1,18 +1,18 @@
 #BlueJ class context
 comment0.target=PassagemFase3
-comment0.text=\n\ Passagem\ para\ a\ terceira\ fase.\n\ \n\ @author\ Mateus\ Cunha\n\ @version\ 14/11/2026\n
+comment0.text=\r\n\ Passagem\ para\ a\ terceira\ fase.\r\n\ \r\n\ @author\ Mateus\ Cunha\r\n\ @version\ 14/11/2026\r\n
 comment1.params=largura\ altura\ destino\ destinoX\ destinoY
 comment1.target=PassagemFase3(int,\ int,\ greenfoot.World,\ int,\ int)
-comment1.text=\n\ Construtor\ padrao\ da\ PassagemFase3\n
+comment1.text=\r\n\ Construtor\ padrao\ da\ PassagemFase3\r\n
 comment2.params=
 comment2.target=void\ destrancar()
-comment2.text=\n\ Destranca\ a\ porta\ para\ a\ fase\ 3.\n
+comment2.text=\r\n\ Destranca\ a\ porta\ para\ a\ fase\ 3.\r\n
 comment3.params=
 comment3.target=boolean\ podePassar()
-comment3.text=\n\ So\ pode\ passar\ se\ houve\ desbloqueio\ com\ o\ cartao.\n
+comment3.text=\r\n\ So\ pode\ passar\ se\ houve\ desbloqueio\ com\ o\ cartao.\r\n
 comment4.params=
 comment4.target=java.lang.String\ mensagemBloqueio()
 comment5.params=
 comment5.target=boolean\ estaTrancada()
-comment5.text=\n\ @return\ true\ se\ a\ porta\ ainda\ esta\ trancada.\n
+comment5.text=\r\n\ @return\ true\ se\ a\ porta\ ainda\ esta\ trancada.\r\n
 numComments=6

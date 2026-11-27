@@ -1,16 +1,16 @@
 #BlueJ class context
 comment0.target=Pontuacao
-comment0.text=\n\ Controla\ a\ pontua\u00E7\u00E3o\ do\ jogador.\n\ Os\ membros\ s\u00E3o\ est\u00E1ticos\ para\ que\ o\ valor\ continue\ o\ mesmo\n\ quando\ o\ jogador\ troca\ de\ mundo.\n\n\ @author\ Mateus\ Cunha\n\ @version\ 17/11/2026\n
+comment0.text=\r\n\ Controla\ a\ pontua\u00E7\u00E3o\ do\ jogador.\r\n\ Os\ membros\ s\u00E3o\ est\u00E1ticos\ para\ que\ o\ valor\ continue\ o\ mesmo\r\n\ quando\ o\ jogador\ troca\ de\ mundo.\r\n\r\n\ @author\ Mateus\ Cunha\r\n\ @version\ 17/11/2026\r\n
 comment1.params=
 comment1.target=Pontuacao()
-comment1.text=\n\ Classe\ utilit\u00E1ria\:\ n\u00E3o\ deve\ ser\ instanciada.\n
+comment1.text=\r\n\ Classe\ utilit\u00E1ria\:\ n\u00E3o\ deve\ ser\ instanciada.\r\n
 comment2.params=
 comment2.target=int\ getTotal()
-comment2.text=\n\ @return\ pontua\u00E7\u00E3o\ atual.\n
+comment2.text=\r\n\ @return\ pontua\u00E7\u00E3o\ atual.\r\n
 comment3.params=pontos
 comment3.target=void\ adicionar(int)
-comment3.text=\n\ Soma\ pontos\ \u00E0\ pontua\u00E7\u00E3o\ atual.\ Valores\ zero\ ou\ negativos\ s\u00E3o\ ignorados.\n\n\ @param\ pontos\ quantidade\ de\ pontos\ recebida.\n
+comment3.text=\r\n\ Soma\ pontos\ \u00E0\ pontua\u00E7\u00E3o\ atual.\ Valores\ zero\ ou\ negativos\ s\u00E3o\ ignorados.\r\n\r\n\ @param\ pontos\ quantidade\ de\ pontos\ recebida.\r\n
 comment4.params=
 comment4.target=void\ reiniciar()
-comment4.text=\n\ Zera\ a\ pontua\u00E7\u00E3o\ (nova\ partida).\n
+comment4.text=\r\n\ Zera\ a\ pontua\u00E7\u00E3o\ (nova\ partida).\r\n
 numComments=5

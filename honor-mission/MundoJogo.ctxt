@@ -1,13 +1,13 @@
 #BlueJ class context
 comment0.target=MundoJogo
-comment0.text=\n\ Classe\ base\ dos\ mundos\ jog\u00E1veis\ (Patio,\ CasaVigia,\ Quartel\ e\ Museu).\n\ Concentra\ o\ que\ \u00E9\ comum\ a\ todos\:\ atualiza\u00E7\u00E3o\ da\ partida\ e\ exibi\u00E7\u00E3o\n\ dos\ pain\u00E9is\ de\ vidas\ e\ pontua\u00E7\u00E3o.\n\n\ @author\ Mateus\ Cunha\n\ @version\ 18/11/2026\n
+comment0.text=\r\n\ Classe\ base\ dos\ mundos\ jog\u00E1veis\ (Patio,\ CasaVigia,\ Quartel\ e\ Museu).\r\n\ Concentra\ o\ que\ \u00E9\ comum\ a\ todos\:\ atualiza\u00E7\u00E3o\ da\ partida\ e\ exibi\u00E7\u00E3o\r\n\ dos\ pain\u00E9is\ de\ vidas\ e\ pontua\u00E7\u00E3o.\r\n\r\n\ @author\ Mateus\ Cunha\r\n\ @version\ 18/11/2026\r\n
 comment1.params=largura\ altura
 comment1.target=MundoJogo(int,\ int)
-comment1.text=\n\ Cria\ um\ mundo\ jog\u00E1vel\ com\ o\ tamanho\ informado.\n
+comment1.text=\r\n\ Cria\ um\ mundo\ jog\u00E1vel\ com\ o\ tamanho\ informado.\r\n
 comment2.params=
 comment2.target=void\ act()
-comment2.text=\n\ A\ cada\ act,\ atualiza\ o\ andamento\ da\ partida.\n\ Subclasses\ que\ sobrescreverem\ este\ m\u00E9todo\ devem\ chamar\ super.act().\n
+comment2.text=\r\n\ A\ cada\ act,\ atualiza\ o\ andamento\ da\ partida.\r\n\ Subclasses\ que\ sobrescreverem\ este\ m\u00E9todo\ devem\ chamar\ super.act().\r\n
 comment3.params=
 comment3.target=void\ adicionarPaineis()
-comment3.text=\n\ Adiciona\ os\ pain\u00E9is\ de\ vidas\ e\ pontua\u00E7\u00E3o\ na\ parte\ inferior\ do\ mundo.\n
+comment3.text=\r\n\ Adiciona\ os\ pain\u00E9is\ de\ vidas\ e\ pontua\u00E7\u00E3o\ na\ parte\ inferior\ do\ mundo.\r\n
 numComments=4

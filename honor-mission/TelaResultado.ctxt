@@ -1,13 +1,13 @@
 #BlueJ class context
 comment0.target=TelaResultado
-comment0.text=\n\ Classe\ base\ das\ telas\ de\ resultado\ da\ partida.\n\ Re\u00FAne\ funcionalidades\ compartilhadas\ pelas\ telas\ de\ vit\u00F3ria\ e\ derrota.\n\n\ @author\ Gabriel\ Pedrozo\n\ @version\ 19/11/2026\n
+comment0.text=\r\n\ Classe\ base\ das\ telas\ de\ resultado\ da\ partida.\r\n\ Re\u00FAne\ funcionalidades\ compartilhadas\ pelas\ telas\ de\ vit\u00F3ria\ e\ derrota.\r\n\r\n\ @author\ Gabriel\ Pedrozo\r\n\ @version\ 19/11/2026\r\n
 comment1.params=imagem\ xPontuacao\ yPontuacao\ xTempo\ yTempo
 comment1.target=TelaResultado(java.lang.String,\ int,\ int,\ int,\ int)
-comment1.text=\n\ Cria\ uma\ tela\ de\ resultado\ e\ exibe\ a\ pontua\u00E7\u00E3o\ e\ o\ tempo.\n\n\ @param\ imagem\ imagem\ de\ fundo\ da\ tela.\n\ @param\ xPontuacao\ posi\u00E7\u00E3o\ horizontal\ da\ pontua\u00E7\u00E3o.\n\ @param\ yPontuacao\ posi\u00E7\u00E3o\ vertical\ da\ pontua\u00E7\u00E3o.\n\ @param\ xTempo\ posi\u00E7\u00E3o\ horizontal\ do\ tempo.\n\ @param\ yTempo\ posi\u00E7\u00E3o\ vertical\ do\ tempo.\n
+comment1.text=\r\n\ Cria\ uma\ tela\ de\ resultado\ e\ exibe\ a\ pontua\u00E7\u00E3o\ e\ o\ tempo.\r\n\r\n\ @param\ imagem\ imagem\ de\ fundo\ da\ tela.\r\n\ @param\ xPontuacao\ posi\u00E7\u00E3o\ horizontal\ da\ pontua\u00E7\u00E3o.\r\n\ @param\ yPontuacao\ posi\u00E7\u00E3o\ vertical\ da\ pontua\u00E7\u00E3o.\r\n\ @param\ xTempo\ posi\u00E7\u00E3o\ horizontal\ do\ tempo.\r\n\ @param\ yTempo\ posi\u00E7\u00E3o\ vertical\ do\ tempo.\r\n
 comment2.params=x\ y
 comment2.target=void\ mostrarPontuacao(int,\ int)
-comment2.text=\n\ Exibe\ a\ pontua\u00E7\u00E3o\ final\ do\ jogador.\n
+comment2.text=\r\n\ Exibe\ a\ pontua\u00E7\u00E3o\ final\ do\ jogador.\r\n
 comment3.params=x\ y
 comment3.target=void\ mostrarTempo(int,\ int)
-comment3.text=\n\ Exibe\ o\ tempo\ total\ de\ dura\u00E7\u00E3o\ da\ partida.\n
+comment3.text=\r\n\ Exibe\ o\ tempo\ total\ de\ dura\u00E7\u00E3o\ da\ partida.\r\n
 numComments=4

@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=BotaoLaser
-comment0.text=\n\ Representa\ o\ bot\u00E3o\ respons\u00E1vel\ por\ desativar\ os\ lasers\ do\ Museu.\n\ O\ jogador\ precisa\ se\ aproximar\ e\ pressionar\ a\ tecla\ E\ para\ utiliz\u00E1-lo.\n\n\ @author\ Gabriel\ Pedrozo\n\ @version\ 15/11/2026\n
+comment0.text=\r\n\ Representa\ o\ bot\u00E3o\ respons\u00E1vel\ por\ desativar\ os\ lasers\ do\ Museu.\r\n\ O\ jogador\ precisa\ se\ aproximar\ e\ pressionar\ a\ tecla\ E\ para\ utiliz\u00E1-lo.\r\n\r\n\ @author\ Gabriel\ Pedrozo\r\n\ @version\ 15/11/2026\r\n
 comment1.params=
 comment1.target=BotaoLaser()
-comment1.text=\n\ Inicializa\ o\ bot\u00E3o\ e\ define\ o\ estado\ inicial\ da\ tecla\ E.\n
+comment1.text=\r\n\ Inicializa\ o\ bot\u00E3o\ e\ define\ o\ estado\ inicial\ da\ tecla\ E.\r\n
 comment2.params=
 comment2.target=void\ act()
-comment2.text=\n\ Verifica\ se\ o\ jogador\ est\u00E1\ pr\u00F3ximo\ e\ se\ a\ tecla\ E\ foi\ pressionada.\n\ Ao\ utilizar\ o\ bot\u00E3o,\ solicita\ a\ desativa\u00E7\u00E3o\ dos\ lasers\ do\ Museu.\n\ O\ bot\u00E3o\ s\u00F3\ pode\ ser\ utilizado\ uma\ vez.\n
+comment2.text=\r\n\ Verifica\ se\ o\ jogador\ est\u00E1\ pr\u00F3ximo\ e\ se\ a\ tecla\ E\ foi\ pressionada.\r\n\ Ao\ utilizar\ o\ bot\u00E3o,\ solicita\ a\ desativa\u00E7\u00E3o\ dos\ lasers\ do\ Museu.\r\n\ O\ bot\u00E3o\ s\u00F3\ pode\ ser\ utilizado\ uma\ vez.\r\n
 numComments=3

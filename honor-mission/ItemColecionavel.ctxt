@@ -1,13 +1,15 @@
 #BlueJ class context
 comment0.target=ItemColecionavel
-comment0.text=\n\ Item\ que\ vai\ para\ a\ cole\u00E7\u00E3o\ do\ jogador\ e\ vale\ pontos.\n\n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ 10/11/2026\n
+comment0.text=\r\n\ Item\ que\ vai\ para\ a\ cole\u00E7\u00E3o\ do\ jogador\ e\ vale\ pontos.\r\n\r\n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\r\n\ @version\ 10/11/2026\r\n
 comment1.params=nome\ descricao\ pontos
 comment1.target=ItemColecionavel(java.lang.String,\ java.lang.String,\ int)
-comment1.text=\n\ Cria\ um\ item\ colecion\u00E1vel.\n\n\ @param\ nome\ nome\ do\ item.\n\ @param\ descricao\ breve\ descri\u00E7\u00E3o\ do\ item.\n\ @param\ pontos\ pontos\ ganhos\ ao\ coletar\ o\ item.\n
+comment1.text=\r\n\ Cria\ um\ item\ colecion\u00E1vel.\r\n\r\n\ @param\ nome\ nome\ do\ item.\r\n\ @param\ descricao\ breve\ descri\u00E7\u00E3o\ do\ item.\r\n\ @param\ pontos\ pontos\ ganhos\ ao\ coletar\ o\ item.\r\n
 comment2.params=jogador
 comment2.target=void\ coletadoPor(Jogador)
-comment2.text=\n\ Ao\ ser\ coletado,\ vai\ para\ a\ cole\u00E7\u00E3o\ do\ jogador\ e\ soma\ pontos.\n
+comment2.text=\r\n\ Ao\ ser\ coletado,\ vai\ para\ a\ cole\u00E7\u00E3o\ do\ jogador\ e\ soma\ pontos.\r\n
 comment3.params=
 comment3.target=int\ getPontos()
-comment3.text=\n\ @return\ os\ pontos\ que\ o\ item\ vale.\n
-numComments=4
+comment3.text=\r\n\ @return\ os\ pontos\ que\ o\ item\ vale.\r\n
+comment4.params=
+comment4.target=greenfoot.GreenfootImage\ getImagemColecao()
+numComments=5

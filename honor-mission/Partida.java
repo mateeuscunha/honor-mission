@@ -77,11 +77,11 @@ public class Partida
      * Encerra a partida com vitória: para a música de fundo, toca a música
      * de vitória e vai para a tela de vitória.
      */
-    public static void vencer()
+    public static void vencer(Colecao colecao)
     {
         musicaFundo.parar();
         musicaVitoria.tocar();
-        Greenfoot.setWorld(new TelaVitoria());
+        Greenfoot.setWorld(new TelaVitoria(colecao));
     }
 
     /**

@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=Cachorro
-comment0.text=\n\ Essa\ classe\ representa\ o\ cao\ de\ guarda.\ Ele\ eh\ um\ inimigo\ que\ morde\ o\ player.\n\ \n\ @author\ Mateus\ Cunha\n\ @version\ 14/11/2026\n
+comment0.text=\r\n\ Essa\ classe\ representa\ o\ cao\ de\ guarda.\ Ele\ eh\ um\ inimigo\ que\ morde\ o\ player.\r\n\ \r\n\ @author\ Mateus\ Cunha\r\n\ @version\ 14/11/2026\r\n
 comment1.params=
 comment1.target=Cachorro()
-comment1.text=\n\ Construtor\ cachorro.\n
+comment1.text=\r\n\ Construtor\ cachorro.\r\n
 comment2.params=
 comment2.target=void\ act()
-comment2.text=\n\ O\ cachorro\ procura\ pelo\ jogador.\ Se\ o\ encontra,\ persegue-o\ e\ tenta\ morder.\n\ Se\ nao,\ ele\ fica\ vagueando\ pelo\ mapa.\n
+comment2.text=\r\n\ O\ cachorro\ procura\ pelo\ jogador.\ Se\ o\ encontra,\ persegue-o\ e\ tenta\ morder.\r\n\ Se\ nao,\ ele\ fica\ vagueando\ pelo\ mapa.\r\n
 numComments=3

@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=Lasers
-comment0.text=\n\ Laser\ do\ museu\:\ causa\ dano\ ao\ jogador\ que\ encostar\ nele.\n\ \n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\n\ @version\ 15/11/2026\n
+comment0.text=\r\n\ Laser\ do\ museu\:\ causa\ dano\ ao\ jogador\ que\ encostar\ nele.\r\n\ \r\n\ @author\ Gabriel\ Pedrozo\ &&\ Mateus\ Cunha\r\n\ @version\ 15/11/2026\r\n
 comment1.params=largura\ altura
 comment1.target=Lasers(int,\ int)
-comment1.text=\n\ Cria\ um\ laser\ com\ o\ tamanho\ informado\n
+comment1.text=\r\n\ Cria\ um\ laser\ com\ o\ tamanho\ informado\r\n
 comment2.params=
 comment2.target=void\ act()
-comment2.text=\n\ Se\ o\ jogador\ estiver\ encostando\ no\ laser,\ ele\ perde\ uma\ vida.\n
+comment2.text=\r\n\ Se\ o\ jogador\ estiver\ encostando\ no\ laser,\ ele\ perde\ uma\ vida.\r\n
 numComments=3

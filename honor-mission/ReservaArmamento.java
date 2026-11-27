@@ -8,6 +8,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class ReservaArmamento extends MundoJogo
 {
+    private Jogador jogador;
+    
     /**
      * Construtor para a Reserva de Armamento.
      * 
@@ -28,7 +30,7 @@ public class ReservaArmamento extends MundoJogo
     
         if (!Vidas.acabaram() && getObjects(Patife.class).isEmpty())
         {
-            Partida.vencer();
+            Partida.vencer(jogador.getColecao());
         }
     }
     
@@ -38,7 +40,7 @@ public class ReservaArmamento extends MundoJogo
      */
     private void prepare()
     {
-        Jogador jogador = new Jogador();
+        jogador = new Jogador();
         addObject(jogador, 501, 606);
 
         // adiciona os paineis, herda de MundoJogo
