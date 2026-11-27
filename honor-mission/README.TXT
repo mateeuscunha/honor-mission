@@ -2,6 +2,9 @@ TRABALHO DE IPOO - ENTREGA FINAL
 
 Nome do jogo: Honor Mission
 
+**PARA JOGAR CRIE UMA INSTÂNCIA DA CLASSE TelaInicial**
+--Mesmo salvando o jogo com a instância da classe TelaInicial criada, quando ele é aberto em outra máquina, é necessário criar novamente um objeto TelaInicial.
+
 Integrantes do grupo que realmente contribuíram no trabalho:
 - Mateus Cunha
 - Gabriel Pedrozo
